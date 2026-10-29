@@ -3,17 +3,16 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.6.2</title>
-      <pubDate>Thu, 29 Oct 2026 16:34:53 GMT</pubDate>
-      <sparkle:version>99</sparkle:version>
-      <sparkle:shortVersionString>1.6.2</sparkle:shortVersionString>
+      <title>Loupe 1.6.3</title>
+      <pubDate>Thu, 29 Oct 2026 16:45:54 GMT</pubDate>
+      <sparkle:version>101</sparkle:version>
+      <sparkle:shortVersionString>1.6.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h2>1.6.2</h2>
+      <description><![CDATA[<h2>1.6.3</h2>
 <ul>
-<li><b>설정 창에도 색 테마</b>: 탐색 창처럼 테마의 밝은 바탕, 스위치 · 단추 강조는 머리 색 (다크 모드에서도)</li>
-<li>탐색 창 툴바 오른쪽 끝의 설정(톱니) 단추를 뺌 — 머리의 설정 단추를 씁니다</li>
+<li><b>설정 창 탭 막대를 머리 색으로</b> (시안 20 A): 제목 막대 · 탭 막대는 테마의 짙은 머리 색에 흰 글씨, 아래 내용은 밝은 바탕으로 구분</li>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.6.2.zip" length="4936785" type="application/octet-stream" sparkle:edSignature="jrY4AM/SR6dxwSdmREjQcxh2HAQpbhiNJ7qOd45rr/5tsQ/u6OSYLKQNTqKHA0ZxlGJa8woqqd8suRGCnsEwBg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.6.3.zip" length="4939208" type="application/octet-stream" sparkle:edSignature="1OvsV5VyHMZqOY6dMLfvk/OXsWRe3WKlugJvDDsxAU1fNVuWtXzsB5T1Kwan5TuOnZeRu5WOJGObTEgkdjVADQ=="/>
     </item>
   </channel>
 </rss>
