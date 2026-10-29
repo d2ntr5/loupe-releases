@@ -3,17 +3,22 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.5.2</title>
-      <pubDate>Thu, 29 Oct 2026 15:54:12 GMT</pubDate>
-      <sparkle:version>89</sparkle:version>
-      <sparkle:shortVersionString>1.5.2</sparkle:shortVersionString>
+      <title>Loupe 1.6.0</title>
+      <pubDate>Thu, 29 Oct 2026 16:22:48 GMT</pubDate>
+      <sparkle:version>91</sparkle:version>
+      <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h2>1.5.2</h2>
+      <description><![CDATA[<h2>1.6.0</h2>
 <ul>
-<li><b>탐색 창 머리글</b>: 앱 아이콘 · Loupe · 버전 · 설정(톱니) / 설정 · <b>업데이트</b> 단추 (새 버전이 있을 때만 켜짐) — 시안 15</li>
-<li><b>설정 창 크기</b>: 탭마다 내용에 맞춤 — 보기 탭 아래쪽(화면 모드)이 잘리던 것을 고침. 기본 앱 · Finder 탭은 내용이 길어 화면에 맞는 높이로 줄이고 스크롤</li>
+<li><b>색 테마</b> (설정 › 보기 › 색 테마, 시안 19): Karya 와 같은 9가지 — 청록 (기본) · 파랑 · 남색 · 인디고 보라 · 청록 초록 · 숲 초록 · 자두 · 커피 · 강철 회청</li>
+<ul>
+<li>탐색 창 맨 위는 제목 막대까지 테마의 짙은 머리 색에 흰 글씨: 로고 · Loupe · 버전 · 설정 단추, 오른쪽에 상태 (압축 · 압축 해제 · 크기 조절 진행, 최신 버전 / 업데이트 v…)</li>
+<li>사이드바 · 창 · 목록 · 새 버전 알림 띠 바탕은 같은 계열의 밝은 빛 (다크 모드에서도). 주 단추 · 썸네일의 고른 칸은 머리 색</li>
+<li>이미지 뷰어 바탕은 테마와 상관없이 그대로</li>
+<li>머리의 설정 · 업데이트 단추는 오른쪽 상태로 바뀜</li>
+</ul>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.5.2.zip" length="4873899" type="application/octet-stream" sparkle:edSignature="zC7xjRtAa9KIkwySgJ99r7xGSfd4iVhaj3009Xamv5MZLyrZVynEVHHpYM45TGLpibgFeg7ekgS3r8thOia4BA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.6.0.zip" length="4942164" type="application/octet-stream" sparkle:edSignature="2GFqMvrtY8LtbDAIo/whkxn8wFhqi4y1vI1p6aNZuDs7C5ybSWS0lEDUsKdFEslihlw+Pvj9Mtdn+9ebtJLBCg=="/>
     </item>
   </channel>
 </rss>
