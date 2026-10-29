@@ -3,20 +3,17 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.5.1</title>
-      <pubDate>Thu, 29 Oct 2026 15:46:38 GMT</pubDate>
-      <sparkle:version>87</sparkle:version>
-      <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
+      <title>Loupe 1.5.2</title>
+      <pubDate>Thu, 29 Oct 2026 15:54:12 GMT</pubDate>
+      <sparkle:version>89</sparkle:version>
+      <sparkle:shortVersionString>1.5.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h2>1.5.1</h2>
+      <description><![CDATA[<h2>1.5.2</h2>
 <ul>
-<li>압축 파일 더블 클릭 · Finder 오른쪽 버튼 메뉴로 <b>압축 · 풀기만 하려고 실행된 Loupe 는 작업이 끝나면 종료</b>합니다 (아카이브 유틸리티처럼)</li>
-<ul>
-<li>진행 팝업이 닫힌 뒤 종료 (팝업을 꺼 뒀으면 바로). 그사이 탐색 창이나 뷰어를 열었으면 종료하지 않습니다</li>
-<li>이미 실행 중이던 Loupe 는 그대로 둡니다</li>
-</ul>
+<li><b>탐색 창 머리글</b>: 앱 아이콘 · Loupe · 버전 · 설정(톱니) / 설정 · <b>업데이트</b> 단추 (새 버전이 있을 때만 켜짐) — 시안 15</li>
+<li><b>설정 창 크기</b>: 탭마다 내용에 맞춤 — 보기 탭 아래쪽(화면 모드)이 잘리던 것을 고침. 기본 앱 · Finder 탭은 내용이 길어 화면에 맞는 높이로 줄이고 스크롤</li>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.5.1.zip" length="4844903" type="application/octet-stream" sparkle:edSignature="oTffy0/bCWq0E/V0dWZur5Ij1kZNlTg2PmDBxTiSs+aj8im4/As5Qhv1IUjfGSMGzc0YHZLe5/dvVVlUHqjXDg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.5.2.zip" length="4873899" type="application/octet-stream" sparkle:edSignature="zC7xjRtAa9KIkwySgJ99r7xGSfd4iVhaj3009Xamv5MZLyrZVynEVHHpYM45TGLpibgFeg7ekgS3r8thOia4BA=="/>
     </item>
   </channel>
 </rss>
