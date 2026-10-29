@@ -3,22 +3,19 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.6.0</title>
-      <pubDate>Thu, 29 Oct 2026 16:22:48 GMT</pubDate>
-      <sparkle:version>91</sparkle:version>
-      <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
+      <title>Loupe 1.6.1</title>
+      <pubDate>Thu, 29 Oct 2026 16:27:09 GMT</pubDate>
+      <sparkle:version>95</sparkle:version>
+      <sparkle:shortVersionString>1.6.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h2>1.6.0</h2>
+      <description><![CDATA[<h2>1.6.1</h2>
 <ul>
-<li><b>색 테마</b> (설정 › 보기 › 색 테마, 시안 19): Karya 와 같은 9가지 — 청록 (기본) · 파랑 · 남색 · 인디고 보라 · 청록 초록 · 숲 초록 · 자두 · 커피 · 강철 회청</li>
+<li>설정 › 보기 › <b>화면 모드</b>(시스템 설정 · 화이트 · 다크)와 보기 메뉴의 화면 모드를 없앰 — 색 테마로 대신합니다</li>
 <ul>
-<li>탐색 창 맨 위는 제목 막대까지 테마의 짙은 머리 색에 흰 글씨: 로고 · Loupe · 버전 · 설정 단추, 오른쪽에 상태 (압축 · 압축 해제 · 크기 조절 진행, 최신 버전 / 업데이트 v…)</li>
-<li>사이드바 · 창 · 목록 · 새 버전 알림 띠 바탕은 같은 계열의 밝은 빛 (다크 모드에서도). 주 단추 · 썸네일의 고른 칸은 머리 색</li>
-<li>이미지 뷰어 바탕은 테마와 상관없이 그대로</li>
-<li>머리의 설정 · 업데이트 단추는 오른쪽 상태로 바뀜</li>
+<li>이미지 뷰어 · 설정 창은 macOS 의 밝게 · 어둡게 설정을 따릅니다. 탐색 창은 색 테마의 밝은 색</li>
 </ul>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.6.0.zip" length="4942164" type="application/octet-stream" sparkle:edSignature="2GFqMvrtY8LtbDAIo/whkxn8wFhqi4y1vI1p6aNZuDs7C5ybSWS0lEDUsKdFEslihlw+Pvj9Mtdn+9ebtJLBCg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.6.1.zip" length="4931141" type="application/octet-stream" sparkle:edSignature="IHJrnpVnL0X5BdAmuZpyjVD8c9ohCPYE2mF5cKey1No3B6nvRJvD0AJTWudZdnRME+BMKOKDQYkzJqUSRXT/Cg=="/>
     </item>
   </channel>
 </rss>
