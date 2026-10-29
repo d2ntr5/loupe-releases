@@ -3,19 +3,17 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.6.1</title>
-      <pubDate>Thu, 29 Oct 2026 16:27:09 GMT</pubDate>
-      <sparkle:version>95</sparkle:version>
-      <sparkle:shortVersionString>1.6.1</sparkle:shortVersionString>
+      <title>Loupe 1.6.2</title>
+      <pubDate>Thu, 29 Oct 2026 16:34:53 GMT</pubDate>
+      <sparkle:version>99</sparkle:version>
+      <sparkle:shortVersionString>1.6.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h2>1.6.1</h2>
+      <description><![CDATA[<h2>1.6.2</h2>
 <ul>
-<li>설정 › 보기 › <b>화면 모드</b>(시스템 설정 · 화이트 · 다크)와 보기 메뉴의 화면 모드를 없앰 — 색 테마로 대신합니다</li>
-<ul>
-<li>이미지 뷰어 · 설정 창은 macOS 의 밝게 · 어둡게 설정을 따릅니다. 탐색 창은 색 테마의 밝은 색</li>
-</ul>
+<li><b>설정 창에도 색 테마</b>: 탐색 창처럼 테마의 밝은 바탕, 스위치 · 단추 강조는 머리 색 (다크 모드에서도)</li>
+<li>탐색 창 툴바 오른쪽 끝의 설정(톱니) 단추를 뺌 — 머리의 설정 단추를 씁니다</li>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.6.1.zip" length="4931141" type="application/octet-stream" sparkle:edSignature="IHJrnpVnL0X5BdAmuZpyjVD8c9ohCPYE2mF5cKey1No3B6nvRJvD0AJTWudZdnRME+BMKOKDQYkzJqUSRXT/Cg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.6.2.zip" length="4936785" type="application/octet-stream" sparkle:edSignature="jrY4AM/SR6dxwSdmREjQcxh2HAQpbhiNJ7qOd45rr/5tsQ/u6OSYLKQNTqKHA0ZxlGJa8woqqd8suRGCnsEwBg=="/>
     </item>
   </channel>
 </rss>
