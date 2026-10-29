@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Loupe</title>
+    <item>
+      <title>Loupe 1.5.0</title>
+      <pubDate>Thu, 29 Oct 2026 15:37:06 GMT</pubDate>
+      <sparkle:version>85</sparkle:version>
+      <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h2>1.5.0</h2>
+<ul>
+<li><b>앱 안 업데이트</b> (Sparkle 2): 하루에 한 번 새 버전을 확인합니다 — 시안 15 · 16 · 17 · 18</li>
+<ul>
+<li>새 버전이 있으면 탐색 창 위 배너(나중에 · 업데이트…), Dock 아이콘 배지, 알림 센터 알림으로 알립니다</li>
+<li>업데이트… 를 누르면 업데이트 창에서 변경 내용을 보고 받아서 설치 · 재실행합니다 (창 문구는 Sparkle 한국어 번역)</li>
+<li>Loupe › <b>업데이트 확인…</b>, 설정 › 정보 › <b>업데이트 확인…</b> · <b>자동으로 업데이트 확인</b></li>
+<li>이 버전은 직접 설치해야 하고, 다음 버전부터 앱이 알려 줍니다</li>
+</ul>
+</ul>]]></description>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.5.0.zip" length="4842967" type="application/octet-stream" sparkle:edSignature="x4NUj3o2Eqt0Jib1MgYFUrGEfKRQgodf9MBjDvDJFcCre9M2jn/GSW9dwRqUzvRUMQ7BhqlxYEK+OUkh4vCDAA=="/>
+    </item>
+  </channel>
+</rss>
