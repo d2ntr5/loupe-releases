@@ -3,16 +3,16 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.6.3</title>
-      <pubDate>Thu, 29 Oct 2026 16:45:54 GMT</pubDate>
-      <sparkle:version>101</sparkle:version>
-      <sparkle:shortVersionString>1.6.3</sparkle:shortVersionString>
+      <title>Loupe 1.6.4</title>
+      <pubDate>Thu, 29 Oct 2026 16:49:55 GMT</pubDate>
+      <sparkle:version>103</sparkle:version>
+      <sparkle:shortVersionString>1.6.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h2>1.6.3</h2>
+      <description><![CDATA[<h2>1.6.4</h2>
 <ul>
-<li><b>설정 창 탭 막대를 머리 색으로</b> (시안 20 A): 제목 막대 · 탭 막대는 테마의 짙은 머리 색에 흰 글씨, 아래 내용은 밝은 바탕으로 구분</li>
+<li>설정 창 탭 막대가 머리 색이 아니라 밝은 바탕색으로 칠해져 흰 탭 글자가 안 보이던 것을 고침 (1.6.3)</li>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.6.3.zip" length="4939208" type="application/octet-stream" sparkle:edSignature="1OvsV5VyHMZqOY6dMLfvk/OXsWRe3WKlugJvDDsxAU1fNVuWtXzsB5T1Kwan5TuOnZeRu5WOJGObTEgkdjVADQ=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.6.4.zip" length="4938716" type="application/octet-stream" sparkle:edSignature="/z9x/KhrNUg5cVqTWDDJk9WiwxEPnMBHQ8Bb+yeFC9p0bbsbqVab92vml01KqAarqA06EEls8fcaKNecRpMcBg=="/>
     </item>
   </channel>
 </rss>
