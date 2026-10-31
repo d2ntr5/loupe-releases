@@ -3,16 +3,16 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.6.5</title>
-      <pubDate>Thu, 29 Oct 2026 16:57:34 GMT</pubDate>
-      <sparkle:version>105</sparkle:version>
-      <sparkle:shortVersionString>1.6.5</sparkle:shortVersionString>
+      <title>Loupe 1.6.6</title>
+      <pubDate>Sat, 31 Oct 2026 00:06:06 GMT</pubDate>
+      <sparkle:version>109</sparkle:version>
+      <sparkle:shortVersionString>1.6.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h2>1.6.5</h2>
+      <description><![CDATA[<h2>1.6.6</h2>
 <ul>
-<li>설정 › 크기 조절 탭을 다른 탭과 맞춤: 프로필 목록이 제목 막대 · 탭 막대까지 흰 바탕으로 덮던 것을 고쳐 탭 막대 아래부터 사이드바 색, 백업 상자 테두리 · 라디오 · 경로도 앰버 대신 테마 색</li>
+<li>메뉴가 열리거나 시스템이 메뉴 항목을 검사할 때 앱이 갑자기 종료되던 것을 고침: 탐색 창 분할 뷰가 자기 자신을 delegate 로 두어 <code>respondsToSelector:</code> 가 무한 재귀(스택 넘침)에 빠졌음</li>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.6.5.zip" length="4940307" type="application/octet-stream" sparkle:edSignature="oHXuwsatYY232i56Lf0IoiFPu2LWVnd+/uH0fn0BHNK/EsleCcEfP7Z6/QkhDtAFZTeDcmpQ+zOmBfEKQldPDg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.6.6.zip" length="4942666" type="application/octet-stream" sparkle:edSignature="OcuJBINJfjmZgg6/p+/je2QzUlgvlTx0UGVnMWKNSal20mREPzEK3twiBnslO3D+hl//IO8u6UBxHV9Qce7gBw=="/>
     </item>
   </channel>
 </rss>
