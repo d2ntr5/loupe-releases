@@ -3,16 +3,29 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.6.7</title>
-      <pubDate>Sun, 01 Nov 2026 14:11:48 GMT</pubDate>
-      <sparkle:version>121</sparkle:version>
-      <sparkle:shortVersionString>1.6.7</sparkle:shortVersionString>
+      <title>Loupe 1.6.8</title>
+      <pubDate>Tue, 03 Nov 2026 11:26:40 GMT</pubDate>
+      <sparkle:version>127</sparkle:version>
+      <sparkle:shortVersionString>1.6.8</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h2>1.6.7</h2>
+      <description><![CDATA[<h2>1.6.8</h2>
 <ul>
-<li>내부 정리: 뷰어 키 · 마우스 휠 처리에서 Swift 동시성 경고를 없앰 (동작은 같음). 이 버전부터 집 맥미니에서 빌드 · 서명</li>
+<li>크기 조절이 <code>.jpg</code> · <code>.JPG</code> 를 <code>.jpeg</code> 로, <code>.tif</code> 를 <code>.tiff</code> 로 바꿔 저장하던 것을 고침: 형식이 같으면 원본 확장자 그대로, JPEG 로 바꿀 때는 <code>.jpg</code></li>
+<li>크기 조절: *키우지 않기* 를 꺼도 커지지 않고 같은 크기로 다시 저장만 되던 것을 고침. 크기 값이 0 이하이면 1px 로 줄이지 않고 건너뜀. 애니메이션 · 여러 페이지 이미지는 첫 장만 남지 않게 건너뜀</li>
+<li>편집: GIF · WebP 를 *새 파일로 저장* 하면 앞서 저장한 <code>이름 편집.jpg</code> 를 덮어쓰던 것을 고침. 애니메이션 · 여러 페이지 이미지는 원본에 저장 · 목록 회전을 하지 않음 (첫 장만 남던 문제)</li>
+<li>뷰어: 다음 이미지를 불러오는 중이거나 불러오지 못했을 때 회전 · 자르기가 앞 이미지에 적용되던 것을 고침. 편집 미리 보기가 '마지막 확대 비율 기억' 을 '창에 맞춤' 으로 바꾸던 것, 세 번 누르면 손 모양 커서가 남던 것을 고침</li>
+<li>탐색 창: 네트워크 공유가 잠깐 끊기면 목록이 비고 뷰어가 닫히던 것, 지운 항목이 칸 제목을 눌러 정렬하면 다시 보이던 것, 검색 중 압축 파일을 더블 클릭하면 엉뚱한 이미지가 열리던 것을 고침</li>
+<li>Finder 에서 연 뷰어가 목록 정렬 순서를 따름. 연달아 열었을 때 먼저 연 (늦게 끝난) 폴더로 되돌아가던 것을 고침</li>
+<li>폴더를 가리키는 심볼릭 링크가 목록에 보임. 압축 파일 안 이미지를 이름순으로 정렬하면 폴더(챕터)가 섞이던 것을 고침</li>
+<li>RAR: 풀 수 없는 항목이 하나 있으면 모든 이미지를 못 보던 것, 최근 6개월 안 항목의 날짜가 1년 어긋나던 것을 고침. 압축 파일을 바꾼 뒤에도 예전에 꺼낸 Live Photo 를 쓰던 것을 고침</li>
+<li>압축 해제: 이름에 점이 있는 폴더가 겹치면 <code>Vol 2.1</code> 이 아니라 <code>Vol.1 2</code> 로. 대소문자만 다른 항목(<code>A.jpg</code> · <code>a.jpg</code>)이 서로 덮어쓰던 것을 고쳐 번호를 붙임</li>
+<li>압축: 서로 다른 폴더의 항목(검색 결과 등)을 함께 압축하면 실패하던 것을 고침</li>
+<li>뷰어: 검색 없이 연 뷰어가 폴더가 바뀔 때 탐색 창 검색 결과로 줄어들던 것을 고침. 편집을 저장하지 않고 다른 목록을 열면 한 번 물어봄</li>
+<li>탐색 창: 슬라이드 쇼 · 뷰어가 접힌 압축 파일 안 이미지로 넘어가면 펼쳐서 선택이 보이게</li>
+<li>회전 · 자르기: 흑백 · CMYK 이미지가 RGB 로, 투명하지 않은 PNG · TIFF 에 알파 채널이 더해지던 것을 고침</li>
+<li>썸네일: 사진에 들어 있는 작은 썸네일 때문에 큰 썸네일이 흐릿하던 것을 고침</li>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.6.7.zip" length="4944183" type="application/octet-stream" sparkle:edSignature="kXuZc6TWEAkxBtWfdre5J5rEBcNlrdl0IcufE+jfT+LrhQBnAMrkR0eDFrGvJuwYmKhIQnvi+9ycRQnmQf2BCA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.6.8.zip" length="4970012" type="application/octet-stream" sparkle:edSignature="3C1dYLSocwCoR0xhHN+f4gsRZBxgeqr35ihgdgZUcp15zu3wi9CgNITElBHG1JrM0vRCe7nEaUIs0kb4k+cCDw=="/>
     </item>
   </channel>
 </rss>
