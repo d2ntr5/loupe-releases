@@ -3,10 +3,10 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.7.0</title>
-      <pubDate>Sun, 08 Nov 2026 02:59:13 GMT</pubDate>
-      <sparkle:version>148</sparkle:version>
-      <sparkle:shortVersionString>1.7.0</sparkle:shortVersionString>
+      <title>Loupe 1.8.0</title>
+      <pubDate>Sun, 08 Nov 2026 05:33:16 GMT</pubDate>
+      <sparkle:version>152</sparkle:version>
+      <sparkle:shortVersionString>1.8.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 .installed-note { display: none; }
@@ -16,8 +16,18 @@
 .tag { font-size: 11px; font-weight: 600; color: #fff; background: #B45309; border-radius: 4px; padding: 1px 5px; }
 small { color: #8E8E93; font-weight: 400; }
 </style>
+<section data-sparkle-version="152">
+<h3>v1.8.0 <span class="tag">설치할 버전</span> <small>2026. 11. 8.</small></h3>
+<ul>
+<li>설정 창을 모든 앱과 같은 모양으로: 위쪽 탭 한 줄(아이콘 · 이름), 굵은 제목 · 연회색 상자 · 상자 아래 설명, 아래 줄 「바꾼 값은 바로 저장됩니다 · esc로 닫기」 · 「완료」</li>
+<li>설정 창 너비는 고정, 높이는 연 탭 내용대로 (탭을 바꿔도 창 위 끝은 그 자리, 화면보다 길면 본문만 스크롤). 머리를 끌어 옮기면 그 자리를 기억</li>
+<li>테마 색은 탐색 창 머리 · 설정 머리 · 스위치 · 주 단추에만 (설정 본문은 시스템 색)</li>
+<li>설정 › 크기 조절을 고정 너비 안에 맞춤 (프로필 목록을 좁게, 백업 선택을 좁은 모양으로)</li>
+</ul>
+<p class="installed-note">v1.8.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
 <section data-sparkle-version="148">
-<h3>v1.7.0 <span class="tag">설치할 버전</span> <small>2026. 11. 8.</small></h3>
+<h3>v1.7.0 <small>2026. 11. 8.</small></h3>
 <ul>
 <li>설정에 <b>업데이트</b> 탭: 지금 버전 · 자동으로 업데이트 확인 · 마지막 확인 · 업데이트 확인… · 모든 버전 보기… (정보 탭에서 옮김)</li>
 <li>새 버전을 30분마다 · 앱을 켤 때 · 잠자기에서 깨어날 때 확인합니다 (전에는 하루 한 번)</li>
@@ -541,7 +551,7 @@ small { color: #8E8E93; font-weight: 400; }
 </ul>
 <p class="installed-note">v1.0.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.7.0.zip" length="5103864" type="application/octet-stream" sparkle:edSignature="ISujY70bnSM/P6epJ2I4Q+Zs303JKTpAbV0TQ5xgvu/nUi5jVa9bywbYjsnOLCU/Eq635pF1cISX/OmsnZGjCA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.8.0.zip" length="5154463" type="application/octet-stream" sparkle:edSignature="P5kD+hLO16MIY5yYc32REDLkQn3EtXSvMDCffCPMWxSr0bKfiQvhP67hHEp7FZkoQAtIRdOL2CJdBOHJ0KpoBw=="/>
     </item>
   </channel>
 </rss>
