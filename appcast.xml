@@ -3,10 +3,10 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.8.0</title>
-      <pubDate>Sun, 08 Nov 2026 05:33:16 GMT</pubDate>
-      <sparkle:version>152</sparkle:version>
-      <sparkle:shortVersionString>1.8.0</sparkle:shortVersionString>
+      <title>Loupe 1.9.0</title>
+      <pubDate>Sun, 08 Nov 2026 11:54:21 GMT</pubDate>
+      <sparkle:version>163</sparkle:version>
+      <sparkle:shortVersionString>1.9.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 .installed-note { display: none; }
@@ -16,8 +16,21 @@
 .tag { font-size: 11px; font-weight: 600; color: #fff; background: #B45309; border-radius: 4px; padding: 1px 5px; }
 small { color: #8E8E93; font-weight: 400; }
 </style>
+<section data-sparkle-version="163">
+<h3>v1.9.0 <span class="tag">설치할 버전</span> <small>2026. 11. 8.</small></h3>
+<ul>
+<li>새 버전 · 업데이트 서버 통신 문제는 탐색 창 머리 톱니의 배지로만 알림: 새 버전 초록 「↓」, 통신 문제 빨강 「!」</li>
+<li>배지가 있을 때 톱니를 누르면 설정 › 업데이트 탭으로 (탭 이름에도 같은 배지)</li>
+<li>업데이트 탭 맨 위에 새 버전 초록 상자: 바뀐 점 몇 줄 · 나중에 · 업데이트… (나중에 = 그 버전은 배지를 다시 띄우지 않음)</li>
+<li>탐색 창 머리를 모든 맥 앱과 같은 모양으로: 신호등과 같은 한 줄(높이 52)에 앱 아이콘 · Loupe · v버전 · 둥근 톱니</li>
+<li>설정 창 머리: 신호등 옆에 앱 아이콘 · 「Loupe 설정」 (왼쪽 정렬), 그 아래 탭 줄</li>
+<li>뷰어 아래 도구 패널: 마우스를 올리면 바탕 · 아이콘 · 글자가 또렷하게 (벗어나면 지금처럼 반투명)</li>
+<li>머리 오른쪽의 「최신 버전」 · 「업데이트 v…」 · 통신 문제 표시와 탐색 창 새 버전 배너를 없앰</li>
+</ul>
+<p class="installed-note">v1.9.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
 <section data-sparkle-version="152">
-<h3>v1.8.0 <span class="tag">설치할 버전</span> <small>2026. 11. 8.</small></h3>
+<h3>v1.8.0 <small>2026. 11. 8.</small></h3>
 <ul>
 <li>설정 창을 모든 앱과 같은 모양으로: 위쪽 탭 한 줄(아이콘 · 이름), 굵은 제목 · 연회색 상자 · 상자 아래 설명, 아래 줄 「바꾼 값은 바로 저장됩니다 · esc로 닫기」 · 「완료」</li>
 <li>설정 창 너비는 고정, 높이는 연 탭 내용대로 (탭을 바꿔도 창 위 끝은 그 자리, 화면보다 길면 본문만 스크롤). 머리를 끌어 옮기면 그 자리를 기억</li>
@@ -551,7 +564,7 @@ small { color: #8E8E93; font-weight: 400; }
 </ul>
 <p class="installed-note">v1.0.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.8.0.zip" length="5154463" type="application/octet-stream" sparkle:edSignature="P5kD+hLO16MIY5yYc32REDLkQn3EtXSvMDCffCPMWxSr0bKfiQvhP67hHEp7FZkoQAtIRdOL2CJdBOHJ0KpoBw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.9.0.zip" length="5159074" type="application/octet-stream" sparkle:edSignature="OSlK7biLfPsQiuhv9NcHl4eK/oyFyvC1T79L8W25AYVwXYgVULlwwH/QOyUfC6CH7mTBJnINZajlVOU7oYKCDA=="/>
     </item>
   </channel>
 </rss>
