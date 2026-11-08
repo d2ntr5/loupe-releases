@@ -3,29 +3,27 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.6.8</title>
-      <pubDate>Tue, 03 Nov 2026 11:26:40 GMT</pubDate>
-      <sparkle:version>127</sparkle:version>
-      <sparkle:shortVersionString>1.6.8</sparkle:shortVersionString>
+      <title>Loupe 1.6.9</title>
+      <pubDate>Sun, 08 Nov 2026 01:29:08 GMT</pubDate>
+      <sparkle:version>142</sparkle:version>
+      <sparkle:shortVersionString>1.6.9</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h2>1.6.8</h2>
+      <description><![CDATA[<h2>1.6.9</h2>
 <ul>
-<li>크기 조절이 <code>.jpg</code> · <code>.JPG</code> 를 <code>.jpeg</code> 로, <code>.tif</code> 를 <code>.tiff</code> 로 바꿔 저장하던 것을 고침: 형식이 같으면 원본 확장자 그대로, JPEG 로 바꿀 때는 <code>.jpg</code></li>
-<li>크기 조절: *키우지 않기* 를 꺼도 커지지 않고 같은 크기로 다시 저장만 되던 것을 고침. 크기 값이 0 이하이면 1px 로 줄이지 않고 건너뜀. 애니메이션 · 여러 페이지 이미지는 첫 장만 남지 않게 건너뜀</li>
-<li>편집: GIF · WebP 를 *새 파일로 저장* 하면 앞서 저장한 <code>이름 편집.jpg</code> 를 덮어쓰던 것을 고침. 애니메이션 · 여러 페이지 이미지는 원본에 저장 · 목록 회전을 하지 않음 (첫 장만 남던 문제)</li>
-<li>뷰어: 다음 이미지를 불러오는 중이거나 불러오지 못했을 때 회전 · 자르기가 앞 이미지에 적용되던 것을 고침. 편집 미리 보기가 '마지막 확대 비율 기억' 을 '창에 맞춤' 으로 바꾸던 것, 세 번 누르면 손 모양 커서가 남던 것을 고침</li>
-<li>탐색 창: 네트워크 공유가 잠깐 끊기면 목록이 비고 뷰어가 닫히던 것, 지운 항목이 칸 제목을 눌러 정렬하면 다시 보이던 것, 검색 중 압축 파일을 더블 클릭하면 엉뚱한 이미지가 열리던 것을 고침</li>
-<li>Finder 에서 연 뷰어가 목록 정렬 순서를 따름. 연달아 열었을 때 먼저 연 (늦게 끝난) 폴더로 되돌아가던 것을 고침</li>
-<li>폴더를 가리키는 심볼릭 링크가 목록에 보임. 압축 파일 안 이미지를 이름순으로 정렬하면 폴더(챕터)가 섞이던 것을 고침</li>
-<li>RAR: 풀 수 없는 항목이 하나 있으면 모든 이미지를 못 보던 것, 최근 6개월 안 항목의 날짜가 1년 어긋나던 것을 고침. 압축 파일을 바꾼 뒤에도 예전에 꺼낸 Live Photo 를 쓰던 것을 고침</li>
-<li>압축 해제: 이름에 점이 있는 폴더가 겹치면 <code>Vol 2.1</code> 이 아니라 <code>Vol.1 2</code> 로. 대소문자만 다른 항목(<code>A.jpg</code> · <code>a.jpg</code>)이 서로 덮어쓰던 것을 고쳐 번호를 붙임</li>
-<li>압축: 서로 다른 폴더의 항목(검색 결과 등)을 함께 압축하면 실패하던 것을 고침</li>
-<li>뷰어: 검색 없이 연 뷰어가 폴더가 바뀔 때 탐색 창 검색 결과로 줄어들던 것을 고침. 편집을 저장하지 않고 다른 목록을 열면 한 번 물어봄</li>
-<li>탐색 창: 슬라이드 쇼 · 뷰어가 접힌 압축 파일 안 이미지로 넘어가면 펼쳐서 선택이 보이게</li>
-<li>회전 · 자르기: 흑백 · CMYK 이미지가 RGB 로, 투명하지 않은 PNG · TIFF 에 알파 채널이 더해지던 것을 고침</li>
-<li>썸네일: 사진에 들어 있는 작은 썸네일 때문에 큰 썸네일이 흐릿하던 것을 고침</li>
+<li>압축 파일: 앱으로 돌아올 때마다 · NAS 폴더가 바뀔 때마다 큰 RAR · CBR 을 처음부터 다시 풀던 것을 고침 (바뀐 압축 파일만 다시 읽음). 같은 ZIP 을 다시 쓰면 새 내용으로 읽음</li>
+<li>풀어 둔 RAR 임시 파일이 강제 종료 · 정전 뒤 남던 것을 앱을 시작할 때 지움. 사이드바에서 외장 디스크 · NAS 를 꺼낼 때 열어 둔 압축 파일 때문에 "사용 중" 이던 것을 고침</li>
+<li>압축: 검색 결과처럼 서로 다른 폴더의 같은 이름(<code>A/1.jpg</code> · <code>B/1.jpg</code>)을 함께 압축하면 압축 파일 안에 이름이 겹치던 것을 고쳐 <code>1 2.jpg</code> 로 넣음</li>
+<li>크기 조절 프로필: 프로필을 한 번도 고치지 않았으면 Finder 메뉴의 프로필이 실행되지 않고 설정 창이 열리던 것, 프로필 하나를 읽지 못하면 모든 프로필이 기본값으로 바뀌던 것을 고침</li>
+<li>뷰어: 회전 · 자르기를 저장하지 않고 Esc · 닫기 단추 · ⌘W 로 닫으면 묻지 않고 버리던 것을 고침</li>
+<li>뷰어: 한글 입력 중에 L(Live Photo 재생)이 안 되던 것, Space 를 누르고 있으면 슬라이드 쇼가 켜졌다 꺼졌다 하던 것, 자르기를 Esc 로 취소하며 누르고 있으면 뷰어가 닫히던 것을 고침</li>
+<li>뷰어: 자르는 중 ⌘⌥S 로 슬라이드 쇼가 시작되던 것, ⌘S 가 보이는 자르기 영역을 빼고 저장하던 것, 크기 칸에 입력하고 *자르기* 를 누르면 입력한 값이 빠지던 것을 고침</li>
+<li>뷰어: 부드러운 스크롤 마우스(Logi Options+ · Mos 등)의 휠이 확대 · 축소 대신 이동하던 것, ⌘ + 트랙패드를 빠르게 튕기면 5% 로 줄던 것을 고침</li>
+<li>탐색 창이 앞에 있을 때 ⌘= ⌘- ⌘0 ⌘9 ⌘8 ⌘L 이 뒤의 뷰어를 바꾸던 것을 고침</li>
+<li>탐색 창: 보던 폴더를 지우거나 디스크를 꺼내면 없는 파일 목록이 남던 것을 고쳐 남아 있는 위 폴더로. 폴더 링크로 연 폴더가 저절로 새로 고쳐지지 않던 것을 고침</li>
+<li>사이드바 트리: 폴더를 잠깐 읽지 못하면 펼침 화살표가 사라지던 것을 고침. 폴더 링크도 보임</li>
+<li>빠르게 넘길 때 · 다른 폴더로 갈 때 앞의 원본 불러오기 · 압축 파일 읽기를 멈춤. 썸네일 캐시 메모리를 256 MB 로 제한</li>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.6.8.zip" length="4970012" type="application/octet-stream" sparkle:edSignature="3C1dYLSocwCoR0xhHN+f4gsRZBxgeqr35ihgdgZUcp15zu3wi9CgNITElBHG1JrM0vRCe7nEaUIs0kb4k+cCDw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.6.9.zip" length="4988372" type="application/octet-stream" sparkle:edSignature="n6uwBPLFVGhmGztjb0BS+7DXldNgFS6Yr3nFvl5LZF3O244ruAMu1ZSgZ7Wv5bGox+GkSsYyMt/K+J8e5VdcBQ=="/>
     </item>
   </channel>
 </rss>
