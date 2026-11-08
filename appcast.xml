@@ -3,12 +3,33 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.6.9</title>
-      <pubDate>Sun, 08 Nov 2026 01:29:08 GMT</pubDate>
-      <sparkle:version>142</sparkle:version>
-      <sparkle:shortVersionString>1.6.9</sparkle:shortVersionString>
+      <title>Loupe 1.7.0</title>
+      <pubDate>Sun, 08 Nov 2026 02:59:13 GMT</pubDate>
+      <sparkle:version>148</sparkle:version>
+      <sparkle:shortVersionString>1.7.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h2>1.6.9</h2>
+      <description><![CDATA[<style>
+.installed-note { display: none; }
+.sparkle-installed-version > * { display: none; }
+.sparkle-installed-version > .installed-note { display: block; color: #8E8E93; font-size: 11.5px; border-top: 1px solid #E5E5E5; padding-top: 6px; }
+.sparkle-installed-version ~ section { display: none; }
+.tag { font-size: 11px; font-weight: 600; color: #fff; background: #B45309; border-radius: 4px; padding: 1px 5px; }
+small { color: #8E8E93; font-weight: 400; }
+</style>
+<section data-sparkle-version="148">
+<h3>v1.7.0 <span class="tag">설치할 버전</span> <small>2026. 11. 8.</small></h3>
+<ul>
+<li>설정에 <b>업데이트</b> 탭: 지금 버전 · 자동으로 업데이트 확인 · 마지막 확인 · 업데이트 확인… · 모든 버전 보기… (정보 탭에서 옮김)</li>
+<li>새 버전을 30분마다 · 앱을 켤 때 · 잠자기에서 깨어날 때 확인합니다 (전에는 하루 한 번)</li>
+<li>여러 버전이 쌓인 뒤 처음 「업데이트…」를 누르면 지워진 옛 버전을 받으려다 실패하던 것을 고침</li>
+<li>업데이트 창에 지금 버전 다음부터 새 버전까지 바뀐 점을 버전별로 보여 줌</li>
+<li>자동 확인이 두 번 연속 실패하면 탐색 창 머리에 빨간 「● 업데이트 서버와 통신 문제 발생」, 설정 › 업데이트에 자세한 내용 · 통신 확인 명령</li>
+<li>설정 › 정보는 앱 소개만 (아이콘 · 이름 · 버전(빌드) · 이름 뜻 · 설명 · 지원 환경 · 저작권)</li>
+</ul>
+<p class="installed-note">v1.7.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section data-sparkle-version="142">
+<h3>v1.6.9 <small>2026. 11. 8.</small></h3>
 <ul>
 <li>압축 파일: 앱으로 돌아올 때마다 · NAS 폴더가 바뀔 때마다 큰 RAR · CBR 을 처음부터 다시 풀던 것을 고침 (바뀐 압축 파일만 다시 읽음). 같은 ZIP 을 다시 쓰면 새 내용으로 읽음</li>
 <li>풀어 둔 RAR 임시 파일이 강제 종료 · 정전 뒤 남던 것을 앱을 시작할 때 지움. 사이드바에서 외장 디스크 · NAS 를 꺼낼 때 열어 둔 압축 파일 때문에 "사용 중" 이던 것을 고침</li>
@@ -22,8 +43,505 @@
 <li>탐색 창: 보던 폴더를 지우거나 디스크를 꺼내면 없는 파일 목록이 남던 것을 고쳐 남아 있는 위 폴더로. 폴더 링크로 연 폴더가 저절로 새로 고쳐지지 않던 것을 고침</li>
 <li>사이드바 트리: 폴더를 잠깐 읽지 못하면 펼침 화살표가 사라지던 것을 고침. 폴더 링크도 보임</li>
 <li>빠르게 넘길 때 · 다른 폴더로 갈 때 앞의 원본 불러오기 · 압축 파일 읽기를 멈춤. 썸네일 캐시 메모리를 256 MB 로 제한</li>
-</ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.6.9.zip" length="4988372" type="application/octet-stream" sparkle:edSignature="n6uwBPLFVGhmGztjb0BS+7DXldNgFS6Yr3nFvl5LZF3O244ruAMu1ZSgZ7Wv5bGox+GkSsYyMt/K+J8e5VdcBQ=="/>
+</ul>
+<p class="installed-note">v1.6.9 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section data-sparkle-version="127">
+<h3>v1.6.8 <small>2026. 11. 3.</small></h3>
+<ul>
+<li>크기 조절이 <code>.jpg</code> · <code>.JPG</code> 를 <code>.jpeg</code> 로, <code>.tif</code> 를 <code>.tiff</code> 로 바꿔 저장하던 것을 고침: 형식이 같으면 원본 확장자 그대로, JPEG 로 바꿀 때는 <code>.jpg</code></li>
+<li>크기 조절: *키우지 않기* 를 꺼도 커지지 않고 같은 크기로 다시 저장만 되던 것을 고침. 크기 값이 0 이하이면 1px 로 줄이지 않고 건너뜀. 애니메이션 · 여러 페이지 이미지는 첫 장만 남지 않게 건너뜀</li>
+<li>편집: GIF · WebP 를 *새 파일로 저장* 하면 앞서 저장한 <code>이름 편집.jpg</code> 를 덮어쓰던 것을 고침. 애니메이션 · 여러 페이지 이미지는 원본에 저장 · 목록 회전을 하지 않음 (첫 장만 남던 문제)</li>
+<li>뷰어: 다음 이미지를 불러오는 중이거나 불러오지 못했을 때 회전 · 자르기가 앞 이미지에 적용되던 것을 고침. 편집 미리 보기가 '마지막 확대 비율 기억' 을 '창에 맞춤' 으로 바꾸던 것, 세 번 누르면 손 모양 커서가 남던 것을 고침</li>
+<li>탐색 창: 네트워크 공유가 잠깐 끊기면 목록이 비고 뷰어가 닫히던 것, 지운 항목이 칸 제목을 눌러 정렬하면 다시 보이던 것, 검색 중 압축 파일을 더블 클릭하면 엉뚱한 이미지가 열리던 것을 고침</li>
+<li>Finder 에서 연 뷰어가 목록 정렬 순서를 따름. 연달아 열었을 때 먼저 연 (늦게 끝난) 폴더로 되돌아가던 것을 고침</li>
+<li>폴더를 가리키는 심볼릭 링크가 목록에 보임. 압축 파일 안 이미지를 이름순으로 정렬하면 폴더(챕터)가 섞이던 것을 고침</li>
+<li>RAR: 풀 수 없는 항목이 하나 있으면 모든 이미지를 못 보던 것, 최근 6개월 안 항목의 날짜가 1년 어긋나던 것을 고침. 압축 파일을 바꾼 뒤에도 예전에 꺼낸 Live Photo 를 쓰던 것을 고침</li>
+<li>압축 해제: 이름에 점이 있는 폴더가 겹치면 <code>Vol 2.1</code> 이 아니라 <code>Vol.1 2</code> 로. 대소문자만 다른 항목(<code>A.jpg</code> · <code>a.jpg</code>)이 서로 덮어쓰던 것을 고쳐 번호를 붙임</li>
+<li>압축: 서로 다른 폴더의 항목(검색 결과 등)을 함께 압축하면 실패하던 것을 고침</li>
+<li>뷰어: 검색 없이 연 뷰어가 폴더가 바뀔 때 탐색 창 검색 결과로 줄어들던 것을 고침. 편집을 저장하지 않고 다른 목록을 열면 한 번 물어봄</li>
+<li>탐색 창: 슬라이드 쇼 · 뷰어가 접힌 압축 파일 안 이미지로 넘어가면 펼쳐서 선택이 보이게</li>
+<li>회전 · 자르기: 흑백 · CMYK 이미지가 RGB 로, 투명하지 않은 PNG · TIFF 에 알파 채널이 더해지던 것을 고침</li>
+<li>썸네일: 사진에 들어 있는 작은 썸네일 때문에 큰 썸네일이 흐릿하던 것을 고침</li>
+</ul>
+<p class="installed-note">v1.6.8 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section data-sparkle-version="121">
+<h3>v1.6.7 <small>2026. 11. 1.</small></h3>
+<ul>
+<li>내부 정리: 뷰어 키 · 마우스 휠 처리에서 Swift 동시성 경고를 없앰 (동작은 같음). 이 버전부터 집 맥미니에서 빌드 · 서명</li>
+</ul>
+<p class="installed-note">v1.6.7 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section data-sparkle-version="109">
+<h3>v1.6.6 <small>2026. 10. 31.</small></h3>
+<ul>
+<li>메뉴가 열리거나 시스템이 메뉴 항목을 검사할 때 앱이 갑자기 종료되던 것을 고침: 탐색 창 분할 뷰가 자기 자신을 delegate 로 두어 <code>respondsToSelector:</code> 가 무한 재귀(스택 넘침)에 빠졌음</li>
+</ul>
+<p class="installed-note">v1.6.6 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section data-sparkle-version="105">
+<h3>v1.6.5 <small>2026. 10. 30.</small></h3>
+<ul>
+<li>설정 › 크기 조절 탭을 다른 탭과 맞춤: 프로필 목록이 제목 막대 · 탭 막대까지 흰 바탕으로 덮던 것을 고쳐 탭 막대 아래부터 사이드바 색, 백업 상자 테두리 · 라디오 · 경로도 앰버 대신 테마 색</li>
+</ul>
+<p class="installed-note">v1.6.5 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section data-sparkle-version="103">
+<h3>v1.6.4 <small>2026. 10. 30.</small></h3>
+<ul>
+<li>설정 창 탭 막대가 머리 색이 아니라 밝은 바탕색으로 칠해져 흰 탭 글자가 안 보이던 것을 고침 (1.6.3)</li>
+</ul>
+<p class="installed-note">v1.6.4 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section data-sparkle-version="101">
+<h3>v1.6.3 <small>2026. 10. 30.</small></h3>
+<ul>
+<li><b>설정 창 탭 막대를 머리 색으로</b> (시안 20 A): 제목 막대 · 탭 막대는 테마의 짙은 머리 색에 흰 글씨, 아래 내용은 밝은 바탕으로 구분</li>
+</ul>
+<p class="installed-note">v1.6.3 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section data-sparkle-version="99">
+<h3>v1.6.2 <small>2026. 10. 30.</small></h3>
+<ul>
+<li><b>설정 창에도 색 테마</b>: 탐색 창처럼 테마의 밝은 바탕, 스위치 · 단추 강조는 머리 색 (다크 모드에서도)</li>
+<li>탐색 창 툴바 오른쪽 끝의 설정(톱니) 단추를 뺌 — 머리의 설정 단추를 씁니다</li>
+</ul>
+<p class="installed-note">v1.6.2 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section data-sparkle-version="95">
+<h3>v1.6.1 <small>2026. 10. 30.</small></h3>
+<ul>
+<li>설정 › 보기 › <b>화면 모드</b>(시스템 설정 · 화이트 · 다크)와 보기 메뉴의 화면 모드를 없앰 — 색 테마로 대신합니다</li>
+<ul>
+<li>이미지 뷰어 · 설정 창은 macOS 의 밝게 · 어둡게 설정을 따릅니다. 탐색 창은 색 테마의 밝은 색</li>
+</ul>
+</ul>
+<p class="installed-note">v1.6.1 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section data-sparkle-version="91">
+<h3>v1.6.0 <small>2026. 10. 30.</small></h3>
+<ul>
+<li><b>색 테마</b> (설정 › 보기 › 색 테마, 시안 19): Karya 와 같은 9가지 — 청록 (기본) · 파랑 · 남색 · 인디고 보라 · 청록 초록 · 숲 초록 · 자두 · 커피 · 강철 회청</li>
+<ul>
+<li>탐색 창 맨 위는 제목 막대까지 테마의 짙은 머리 색에 흰 글씨: 로고 · Loupe · 버전 · 설정 단추, 오른쪽에 상태 (압축 · 압축 해제 · 크기 조절 진행, 최신 버전 / 업데이트 v…)</li>
+<li>사이드바 · 창 · 목록 · 새 버전 알림 띠 바탕은 같은 계열의 밝은 빛 (다크 모드에서도). 주 단추 · 썸네일의 고른 칸은 머리 색</li>
+<li>이미지 뷰어 바탕은 테마와 상관없이 그대로</li>
+<li>머리의 설정 · 업데이트 단추는 오른쪽 상태로 바뀜</li>
+</ul>
+</ul>
+<p class="installed-note">v1.6.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section data-sparkle-version="89">
+<h3>v1.5.2 <small>2026. 10. 30.</small></h3>
+<ul>
+<li><b>탐색 창 머리글</b>: 앱 아이콘 · Loupe · 버전 · 설정(톱니) / 설정 · <b>업데이트</b> 단추 (새 버전이 있을 때만 켜짐) — 시안 15</li>
+<li><b>설정 창 크기</b>: 탭마다 내용에 맞춤 — 보기 탭 아래쪽(화면 모드)이 잘리던 것을 고침. 기본 앱 · Finder 탭은 내용이 길어 화면에 맞는 높이로 줄이고 스크롤</li>
+</ul>
+<p class="installed-note">v1.5.2 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section data-sparkle-version="87">
+<h3>v1.5.1 <small>2026. 10. 30.</small></h3>
+<ul>
+<li>압축 파일 더블 클릭 · Finder 오른쪽 버튼 메뉴로 <b>압축 · 풀기만 하려고 실행된 Loupe 는 작업이 끝나면 종료</b>합니다 (아카이브 유틸리티처럼)</li>
+<ul>
+<li>진행 팝업이 닫힌 뒤 종료 (팝업을 꺼 뒀으면 바로). 그사이 탐색 창이나 뷰어를 열었으면 종료하지 않습니다</li>
+<li>이미 실행 중이던 Loupe 는 그대로 둡니다</li>
+</ul>
+</ul>
+<p class="installed-note">v1.5.1 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section data-sparkle-version="85">
+<h3>v1.5.0 <small>2026. 10. 30.</small></h3>
+<ul>
+<li><b>앱 안 업데이트</b> (Sparkle 2): 하루에 한 번 새 버전을 확인합니다 — 시안 15 · 16 · 17 · 18</li>
+<ul>
+<li>새 버전이 있으면 탐색 창 위 배너(나중에 · 업데이트…), Dock 아이콘 배지, 알림 센터 알림으로 알립니다</li>
+<li>업데이트… 를 누르면 업데이트 창에서 변경 내용을 보고 받아서 설치 · 재실행합니다 (창 문구는 Sparkle 한국어 번역)</li>
+<li>Loupe › <b>업데이트 확인…</b>, 설정 › 정보 › <b>업데이트 확인…</b> · <b>자동으로 업데이트 확인</b></li>
+<li>이 버전은 직접 설치해야 하고, 다음 버전부터 앱이 알려 줍니다</li>
+</ul>
+</ul>
+<p class="installed-note">v1.5.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.4.2</h3>
+<ul>
+<li>뷰어 › 회전 · 자르기 › <b>원본에 저장</b> (<code>⌘S</code>): 원본을 <code>backup/</code> 에 남기지 않고 바로 바꿉니다 (백업 없음)</li>
+<ul>
+<li>새 파일을 임시 파일로 다 쓴 뒤 바꾸므로 중간에 실패하면 원본은 그대로입니다</li>
+</ul>
+</ul>
+<p class="installed-note">v1.4.2 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.4.1</h3>
+<ul>
+<li>설정 › 보기 › 앱 아이콘(색 4종)을 없앰 — 앱 아이콘은 앰버(주황) 하나. Dock 타일 플러그인 <code>LoupeDockTile</code> 도 뺌</li>
+<ul>
+<li>오른쪽 버튼 메뉴(탐색 창 · Finder)의 압축 · 풀기 항목 아이콘은 앰버 앱 아이콘</li>
+</ul>
+</ul>
+<p class="installed-note">v1.4.1 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.4.0</h3>
+<ul>
+<li>설정 › 보기 › <b>앱 아이콘</b>: 바탕색만 다른 주얼러 루페 4종 (앰버 · 블루 · 그린 · 그래파이트) — 시안 03-1</li>
+<ul>
+<li>Dock 아이콘이 바로 바뀝니다. Loupe 가 꺼져 있어도 Dock 에 고정한 아이콘은 고른 색 (Dock 타일 플러그인 <code>LoupeDockTile</code>)</li>
+<li>오른쪽 버튼 메뉴(탐색 창 · Finder)의 압축 · 풀기 항목 아이콘도 고른 색</li>
+<li>Finder · 응용 프로그램 폴더의 앱 아이콘과 압축 파일 아이콘은 늘 앰버</li>
+</ul>
+<li><b>7Z 압축 해제</b>: 목록에 보이고 압축 해제만 됩니다 (안의 이미지는 보지 않음, 더블 클릭하면 풂) — 시안 13</li>
+<li><b>오른쪽 버튼 메뉴 (탐색 창 · Finder)</b>: 고른 항목에 따라 반디집 방식으로 — 시안 13 · 14</li>
+<ul>
+<li>파일 · 폴더 여러 개: *각각 파일명/폴더명으로 압축하기* · *Loupe로 압축하기*</li>
+<li>압축 파일 1개: *압축 해제*</li>
+<li>압축 파일 여러 개: *여기에 풀기* · *각각 알아서 풀기* · *각각 파일명 폴더에 풀기* · *Loupe로 압축 풀기...* (풀 위치 고르기)</li>
+<li>압축은 ZIP 만, 압축 해제는 ZIP · RAR · 7Z</li>
+</ul>
+<li>Finder 확장: *Loupe로 열기* · *Loupe로 슬라이드 쇼* · *Loupe 크기 조절* · *Loupe 브라우저에서 보기* 는 고른 항목이 모두 이미지 파일일 때만 보임 (폴더 · 압축 파일 · 다른 파일은 압축 · 압축 해제 항목만)</li>
+<li>크기 조절 프로필의 *Loupe · Finder 오른쪽 버튼 메뉴에 표시* 를 설정 › 기본 앱 · Finder › <b>크기 조절</b> 로 옮김 (프로필 편집 화면에서는 뺌) — 시안 12</li>
+</ul>
+<p class="installed-note">v1.4.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.3.1</h3>
+<ul>
+<li>고침: Finder 목록 크기(16 · 32pt)에서 압축 파일(ZIP · RAR) 아이콘이 깨진 화면처럼 보이던 문제</li>
+<ul>
+<li><code>ZipIcon.icns</code> · <code>RarIcon.icns</code> 에서 최근 macOS 가 제대로 풀지 못하는 <code>icp4</code> · <code>icp5</code> · <code>icp6</code> 항목을 빼고 다시 만듦</li>
+</ul>
+</ul>
+<p class="installed-note">v1.3.1 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.3.0</h3>
+<ul>
+<li>새 앱 아이콘: 주얼러 루페 (앰버 바탕 · 검은 루페 통 · 렌즈 안 풍경) — 시안 04-2</li>
+<li>압축 파일 아이콘: Loupe 가 ZIP · RAR 기본 앱이면 Finder 에서 앱 아이콘에 *ZIP* · *RAR* 띠를 얹은 아이콘으로 보임</li>
+<ul>
+<li>Info.plist 문서 형식을 ZIP · RAR 로 나누고 <code>ZipIcon.icns</code> · <code>RarIcon.icns</code> 지정</li>
+<li>아이콘 원본 <code>Design/*.svg</code>, 만들기 스크립트 <code>scripts/make-icons.mjs</code></li>
+</ul>
+</ul>
+<p class="installed-note">v1.3.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.2.9</h3>
+<ul>
+<li>문서: 서명 요구 사항 표기 바로잡음 (<code>certificate leaf</code>). 앱 기능 변경 없음 — 1.2.8 → 1.2.9 업데이트에서 폴더 접근 권한이 유지되는지 확인용</li>
+</ul>
+<p class="installed-note">v1.2.9 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.2.8</h3>
+<ul>
+<li>릴리즈를 매번 같은 인증서(<code>Loupe Self-Signed</code>)로 서명하도록 준비 — 업데이트해도 macOS 가 같은 앱으로 보고 데스크탑 · 문서 등 폴더 접근 권한을 다시 묻지 않게</li>
+<ul>
+<li>인증서 만들기 · GitHub Secrets 올리기 스크립트 <code>scripts/make-signing-cert.sh</code>, 설정 가이드 <a href="docs/SIGNING.md">docs/SIGNING.md</a></li>
+<li>Secrets 가 없으면 예전처럼 ad-hoc 서명. 인증서 서명으로 바뀐 뒤 처음 한 번은 권한을 다시 물을 수 있음</li>
+</ul>
+</ul>
+<p class="installed-note">v1.2.8 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.2.7</h3>
+<ul>
+<li>고침: 일부 ZIP(예: X 데이터 다운로드의 큰 ZIP64 압축 파일)을 풀면 "압축 파일 안에 항목이 없음" 으로 실패하고 목록에서도 비어 보이던 문제</li>
+<ul>
+<li>사용하던 ZIP 라이브러리(ZIPFoundation)가 항목을 읽지 못하면 macOS 내장 bsdtar 로 다시 읽고 풂</li>
+<li>한글 이름: UTF-8 표시가 없는 이름은 CP949(Windows) 로 읽고, 안 되면 UTF-8 로</li>
+</ul>
+</ul>
+<p class="installed-note">v1.2.7 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.2.6</h3>
+<ul>
+<li>문서 정리 (앱 기능 변경 없음)</li>
+<ul>
+<li>README: 뷰어 확대 · 축소 단축키 <code>⌘=</code> <code>⌘-</code> 추가, 설정 표를 실제 탭 순서(보기 · 윈도우 · 슬라이드 쇼 · 크기 조절 · 기본 앱 · Finder · 정보)로</li>
+<li>개발 가이드: 릴리즈 절차 갱신, 코드 구조에 빠진 파일 추가, Finder 확장 ↔ 앱 설정 공유 · 압축 팝업 위치 저장 설명</li>
+</ul>
+</ul>
+<p class="installed-note">v1.2.6 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.2.5</h3>
+<ul>
+<li>저장소에 작업 규칙 <code>CLAUDE.md</code> 추가 (앱 기능 변경 없음)</li>
+</ul>
+<p class="installed-note">v1.2.5 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.2.4</h3>
+<ul>
+<li>압축 · 압축 해제 진행 팝업이 끌어 옮긴 위치를 기억함 (그 화면이 없으면 화면 오른쪽 위)</li>
+<li>설정 › 기본 앱 · Finder › *압축 · 압축 해제 진행 팝업 보기* (기본: 켬) — 끄면 팝업 없이 진행하고 결과만 목록에서 선택, 실패했을 때만 팝업</li>
+<li>문서 정리: README 를 회전 · 자르기 / 압축 · 압축 해제 / Finder 에서 단락으로 다시 나눔</li>
+</ul>
+<p class="installed-note">v1.2.4 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.2.3</h3>
+<ul>
+<li>설정 › 기본 앱 · Finder › <b>압축 · 압축 해제</b> (시안 12)</li>
+<ul>
+<li>*Finder 오른쪽 버튼 메뉴에 압축 · 압축 해제 추가* (기본: 켬): Finder 메뉴에 ‘Loupe로 압축’, 압축 파일은 ‘Loupe로 압축 해제’. 이미지가 아닌 파일 · 폴더도 압축 가능 (Finder 확장 필요)</li>
+<li>*Finder 에서 압축 파일(ZIP · RAR)을 더블 클릭하면*: 아카이브 유틸리티로 풀기(macOS 기본) / Loupe 로 풀기 — Loupe 를 고르면 “기존 압축 프로그램 연결을 대체합니다” 안내, ZIP · RAR 기본 앱이 Loupe 로 바뀌고 더블 클릭하면 탐색 창과 같은 방식으로 풂</li>
+</ul>
+<li>시안 11 탐색 창을 실제 화면 구성(사이드바 · 퀵뷰 · 정보 · 목록)으로 다시 그림</li>
+</ul>
+<p class="installed-note">v1.2.3 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.2.2</h3>
+<p><b>압축 · 압축 해제</b> (목록 › 오른쪽 버튼)</p>
+<ul>
+<li>*압축*: macOS Finder 와 같게 — 1개면 같은 폴더에 <code>이름.zip</code>, 여러 개면 <code>아카이브.zip</code> (있으면 <code>아카이브 2.zip</code> …). 폴더는 안의 내용까지, 원본은 그대로. 파일 이름은 UTF-8 로 저장해 Windows 에서도 한글이 안 깨짐</li>
+<li>*압축 해제*: macOS 아카이브 유틸리티와 같게 — 압축 파일마다 그 폴더에, 맨 위 항목이 하나면 그대로, 여러 개면 압축 파일 이름의 폴더에 (겹치면 <code>이름 2</code>). ZIP · CBZ · RAR · CBR, 원본 압축 파일은 그대로</li>
+<li>Windows 에서 만든 ZIP 의 한글 이름도 깨지지 않게 풂 (macOS 기본 압축 해제와 다른 점)</li>
+<li>진행 · 완료 팝업 (Finder 에서 보기), 끝나면 결과가 목록에서 선택됨. 더블 클릭은 그대로 (압축 파일 안 첫 이미지부터 보기)</li>
+</ul>
+<p><b>목록 썸네일</b></p>
+<ul>
+<li>고침: 이름 앞 썸네일이 칸 밖으로 넘치던 문제</li>
+<li>Finder 리스트 보기처럼: 정사각형 칸 안에 이미지 전체를 줄여 넣고 얇은 테두리 · 그림자</li>
+</ul>
+<p class="installed-note">v1.2.2 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.2.1</h3>
+<ul>
+<li>고침: 뷰어에서 마우스 휠로 이미지가 넘어가지 않던 문제 — 휠을 창 단위로 받고, 부드러운 스크롤을 켠 마우스(Logitech 등, 정밀 스크롤 값)도 휠로 인식</li>
+</ul>
+<p class="installed-note">v1.2.1 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.2.0</h3>
+<ul>
+<li>이미지 뷰어에서 마우스 휠로 이전 · 다음 이미지 (아래로 = 다음, 위로 = 이전, 빠르게 돌려도 한 칸에 한 장). 확대 · 축소는 <code>↑</code> <code>↓</code> · <code>⌘</code> + 휠 · 트랙패드 핀치</li>
+<li>설정 › 보기 › *마우스 휠*: 이전 · 다음 이미지(기본) / 확대 · 축소</li>
+</ul>
+<p class="installed-note">v1.2.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.1.9</h3>
+<ul>
+<li>설정 › 윈도우 › 앱을 열 때 탐색기 폴더: *마지막 폴더로 열기*(기본) 또는 *이 폴더로 열기* (찾아보기로 지정). 지정한 폴더가 없으면(NAS 연결 끊김 등) 마지막 폴더로</li>
+</ul>
+<p class="installed-note">v1.1.9 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.1.8</h3>
+<ul>
+<li>고침: 자르기 영역 크기 조절 · 이동이 여전히 안 되던 문제 — 마우스를 SwiftUI 제스처 대신 AppKit 으로 직접 받음 (뷰어 캔버스와 겹쳐 끌기가 제대로 오지 않았음)</li>
+<li>크기 칸에 입력하던 중 영역을 끌면 입력을 끝내고 시작 (예전 값이 다시 들어오지 않게)</li>
+</ul>
+<p class="installed-note">v1.1.8 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.1.7</h3>
+<ul>
+<li>고침: 자르기 영역을 늘리거나 줄이고 옮길 때 마우스를 따라오지 않고 조금씩만 움직이던 문제</li>
+<li>자르기 영역의 가장자리 전체를 잡아 크기를 바꿀 수 있음 (손잡이 말고도), 가장자리에서는 ↔ ↕ 커서</li>
+</ul>
+<p class="installed-note">v1.1.7 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.1.6</h3>
+<p><b>회전 · 자르기</b></p>
+<ul>
+<li>뷰어: HUD 에 ⟲ ⟳ 회전(<code>[</code> <code>]</code>) · 자르기(<code>C</code>)</li>
+<ul>
+<li>자르기: 비율(자유 · 원본 · 1:1 · 4:3 · 3:2 · 16:9 · 9:16), 크기(px) 입력, 모서리 · 가장자리를 끌어 크기 조절, 안쪽을 끌어 이동, <code>⇧</code> 비율 고정, 3분할 선, <code>Return</code> 자르기 · <code>Esc</code> 취소</li>
+<li>회전 · 자르기는 저장 전까지 미리 보기, "변경됨 · 아직 저장 안 됨" 막대에서 *되돌리기* · *저장*</li>
+<li>원본에 저장(<code>⌘S</code>): 원본은 같은 폴더의 <code>backup/</code> 에 백업. 새 파일로 저장(<code>⇧⌘S</code>): 원본 옆에 <code>이름 편집.확장자</code></li>
+<li>저장하지 않고 다른 이미지로 넘어가면 한 번 물어봄</li>
+</ul>
+<li>목록: 여러 장 선택 → 오른쪽 버튼 › *회전* › 왼쪽으로 90°(<code>⌥⌘←</code>) · 오른쪽으로 90°(<code>⌥⌘→</code>) · 180°, 선택한 파일에 바로 적용, 결과 팝업에서 *되돌리기*(<code>⌘Z</code>)</li>
+<li>JPEG · HEIC 를 회전만 하면 방향 정보만 바꿔 화질 손실 없음. PNG · TIFF 는 같은 형식으로 다시 저장, 자른 이미지는 원본 형식으로 다시 저장 (촬영 정보 유지)</li>
+<li>오른쪽 버튼 메뉴 순서: 크기 조절 · 회전 다음에 Finder 에서 보기</li>
+</ul>
+<p class="installed-note">v1.1.6 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.1.5</h3>
+<ul>
+<li>목록 정렬: 리스트 보기의 칸 제목(이름 · 크기 · 종류 · 수정일)을 누를 때마다 정렬이 바뀜. 누른 순서대로 정렬 기준이 쌓임 (예: 종류 → 크기). 누를 때마다 오름차순 ▲ → 내림차순 ▼ → 기준에서 빠짐, 칸 제목에 순서 · 방향 표시 (예: <code>크기 2▼</code>). 폴더는 항상 위, 압축 파일 안 이미지는 압축 파일 아래. 정렬은 기억되고 썸네일 보기 · 뷰어 순서에도 적용</li>
+<li>이미지 뷰어의 좌우 이동 버튼(‹ ›)은 평소에는 숨기고, 마우스를 그쪽 가장자리 근처에 가져가면 나타남</li>
+</ul>
+<p class="installed-note">v1.1.5 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.1.4</h3>
+<ul>
+<li>사이드바 폴더 트리: 폴더 · 드라이브를 누르면 그 폴더를 열고 바로 아래 폴더가 한 단계씩 펼쳐짐 (<code>›</code> 는 펼치기 · 접기만, 지금 연 폴더를 다시 누르면 접힘)</li>
+<li>Finder 에서 폴더를 브라우저 창에 끌어 놓으면 바로 열림 (이미지 · 압축 파일은 그 폴더를 열고 선택, Dock 아이콘에 끌어 놓기도 지원)</li>
+<li>이미지 뷰어 창 여러 개: 이미지를 열 때마다 새 뷰어 창 (설정 › 윈도우 › *이미지 뷰어 창 여러 개 열기*, 기본: 켬). 메뉴 명령 · 슬라이드 쇼는 앞에 있는 뷰어에 적용</li>
+</ul>
+<p class="installed-note">v1.1.4 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.1.3</h3>
+<ul>
+<li>브라우저의 슬라이드 쇼: 뷰어 창을 열지 않고 <b>퀵뷰에서</b> 넘기며 목록 선택도 함께 바뀜 (툴바 버튼 · <code>⌥⌘S</code> · 오른쪽 버튼 › *여기서부터 슬라이드 쇼*, 다시 누르면 정지)</li>
+<li>뷰어의 슬라이드 쇼: 뷰어 안에서만 넘어가고 브라우저 목록 선택은 그대로</li>
+<li>고침: 파일이 많은 NAS 폴더에서 멈추거나 느려지고 강제 종료되던 문제</li>
+<ul>
+<li>네트워크 폴더를 3초마다 전체 다시 읽던 방식 대신, Finder 처럼 서버의 변경 알림(SMB)을 받아 바뀌었을 때만 다시 읽음</li>
+<li>다시 읽는 중에는 겹쳐 읽지 않고, 끝난 뒤 한 번 더 읽음 (네트워크 폴더는 1.5초씩 모아서)</li>
+<li>썸네일은 동시에 4개까지만 만들고, 화면 밖으로 지나간 항목은 건너뜀</li>
+</ul>
+</ul>
+<p class="installed-note">v1.1.3 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.1.2</h3>
+<ul>
+<li>설정 › 크기 조절을 시안 06 그대로: 왼쪽 프로필 목록(이름 · 단축키 · 요약), 오른쪽 이름 · 크기 · 형식 · 백업 · 메타데이터 · 메뉴 칸 배치, 백업은 노란 테두리 상자 안에 라디오 단추 · 미리 보기 줄</li>
+<li>직접 설정 창을 시안 07 그대로: 왼쪽 설정 칸(크기 기준 라디오 · 크기 단추 · 형식 · 백업), 오른쪽 파일별 원본 → 결과 표, 아래 예상 용량</li>
+<li>시안처럼 체크 상자 · 라디오 단추 사용 (스위치 제거)</li>
+</ul>
+<p class="installed-note">v1.1.2 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.1.1</h3>
+<ul>
+<li>크기 조절 저장 · 백업을 하나로: 줄인 이미지는 항상 <b>원본 파일 이름으로 원본 자리</b>에 저장하고, 원본 파일은 백업 설정대로 남김</li>
+<ul>
+<li>원본 폴더에: <code>backup</code> 폴더를 만들어 백업(이미 있으면 그대로 사용, 이름 변경 가능) 또는 파일 이름 뒤에 붙일 말을 붙여 백업(기본 <code>.{시간}.old</code>, <code>{시간}</code> = YYYYMMDD-HHmmss)</li>
+<li>다른 폴더에: 찾아보기로 백업 폴더 선택</li>
+<li>백업 없음: 원본을 덮어씀 (경고 문구)</li>
+</ul>
+<li>고침: ‘백업하지 않음(휴지통)’ 을 골라도 휴지통이 없는 위치에서 <code>.old</code> 파일이 생기던 문제 (휴지통 백업은 없어지고 ‘백업 없음’ 으로 바뀜)</li>
+<li>고침: 크기 조절 설정의 입력칸 이름이 두 번 표시되던 문제</li>
+<li>1.1.0 프로필은 새 방식으로 자동 변환 (새 파일 저장 → backup 폴더 백업, 휴지통 → 백업 없음)</li>
+<li>설정 › 정보: 버전만 표시 (빌드 번호 · 릴리즈 링크 제거)</li>
+</ul>
+<p class="installed-note">v1.1.1 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.1.0</h3>
+<p><b>이미지 크기 조절</b></p>
+<ul>
+<li>크기 조절 프로필: 설정 › 크기 조절 에서 추가 · 삭제 · 복제 · 순서 변경 (기본: 웹용 1920 · 절반 50% · 썸네일 640 · 원본 줄이기)</li>
+<ul>
+<li>크기 기준: 긴 변 · 퍼센트 · 너비 · 높이 · 상자에 맞춤, 원본보다 크게 키우지 않기</li>
+<li>형식(원본 유지 · JPEG · HEIC · PNG · TIFF) · 품질, 촬영 정보 유지 · 위치 정보 지우기</li>
+<li>저장: 원본 옆 새 파일(이름 뒤 붙일 말) · 다른 폴더 · 원본 바꾸기</li>
+</ul>
+<li>원본 백업 (원본 바꾸기일 때): 원본 폴더 안 백업 폴더로 옮기기(이름 변경 가능) · 같은 폴더에 <code>이름.확장자.YYYYMMDD-HHmmss.old</code>(확장자 변경 가능) · 휴지통</li>
+<li>바로 크기 조절: 목록 · 뷰어 오른쪽 버튼 › *크기 조절* › 프로필, 메뉴 막대 *이미지 › 크기 조절* (<code>⌥⌘1</code>–<code>⌥⌘9</code>), Finder 오른쪽 버튼 › *Loupe 크기 조절* › 프로필 (Finder 확장)</li>
+<li>직접 설정 창 (<code>⌥⌘R</code>, 파일 1개 · 여러 개): 프로필 불러오기 · *프로필로 저장*, 파일별 결과 크기 미리 보기</li>
+<li>진행 팝업: 항상 위에 뜨는 작은 창, 진행 막대 · 현재 파일 · 백업 이름 · 남은 시간 · 일시 정지 · 중지, 완료 요약(줄어든 용량 · 건너뜀 · 실패), 10초 뒤 자동으로 닫힘, Dock 배지</li>
+<li>끝나면 새 파일이 목록에서 선택됨, Finder 빠른 동작에 *Loupe로 크기 조절…*</li>
+</ul>
+<p class="installed-note">v1.1.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.0.9</h3>
+<ul>
+<li>RAR · CBR 압축 파일 지원 (RAR4 · RAR5, macOS 내장 bsdtar 사용). 처음 볼 때 임시 폴더에 한 번 풀어 둠</li>
+<li>검색창 정규식 모드 (<code>.*</code> 버튼): 파일 이름을 정규식으로 거르기, 잘못된 정규식은 빨간 테두리로 표시</li>
+<li>검색 중에는 뷰어 이동 · 슬라이드 쇼가 검색 결과 안에서만 동작, 상태 막대에 검색 결과 개수</li>
+<li>압축 파일 배지 · 종류에 실제 형식(ZIP · RAR …) 표시</li>
+</ul>
+<p class="installed-note">v1.0.9 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.0.8</h3>
+<ul>
+<li>보고 있는 폴더의 변경을 바로 반영: 새로 저장 · 삭제 · 이름 변경 · 덮어쓰기 (FSEvents)</li>
+<li>NAS 등 네트워크 폴더는 3초마다 확인, 앱으로 돌아올 때도 확인</li>
+<li>다시 읽을 때 선택 · 여러 개 선택 · 접힌 압축 파일 · 스크롤 위치 유지</li>
+<li>덮어쓴 파일은 썸네일 · 퀵뷰를 다시 불러옴</li>
+<li>같은 폴더를 보고 있는 이미지 뷰어도 앞뒤 목록이 갱신됨</li>
+<li><code>⌘R</code> 새로 고침</li>
+</ul>
+<p class="installed-note">v1.0.8 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.0.7</h3>
+<ul>
+<li>여러 파일 선택: <code>⌘</code> 클릭 · <code>⇧</code> 클릭 · <code>⌘A</code> (리스트 · 썸네일 보기 모두)</li>
+<li>선택한 여러 파일을 한 번에 휴지통으로 이동 (<code>⌘⌫</code>, 오른쪽 버튼 › *N개 항목을 휴지통으로 이동*), 확인은 한 번만</li>
+<li>상태 막대에 선택 개수 표시</li>
+</ul>
+<p class="installed-note">v1.0.7 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.0.6</h3>
+<ul>
+<li>파일 삭제: 목록 · 뷰어에서 <code>⌘⌫</code> 또는 오른쪽 버튼 › *휴지통으로 이동* (Live Photo 는 MOV 도 함께).</li>
+</ul>
+<p>  휴지통이 없는 NAS 에서는 바로 삭제할지 확인. 설정 › 보기 › *휴지통으로 옮기기 전에 확인*</p>
+<ul>
+<li>뷰어 HUD 에 휴지통 버튼</li>
+<li>퀵뷰 확대/축소: 휠 · 버튼 · 비율 메뉴(맞춤 · 너비 맞춤 · 25–400% · 1:1), 드래그 이동, 확대 비율 기억</li>
+</ul>
+<p class="installed-note">v1.0.6 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.0.5</h3>
+<ul>
+<li>이미지 뷰어가 마지막 확대 비율(퍼센트 · 화면에 맞춤 · 너비에 맞춤)을 기억합니다.</li>
+</ul>
+<p>  설정 › 보기 › 기본 확대 크기에 *마지막 확대 비율 기억* 추가 (기본값)</p>
+<p class="installed-note">v1.0.5 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.0.4</h3>
+<ul>
+<li>고침: 브라우저 칸 구분선 위치가 제대로 기억되지 않던 문제</li>
+</ul>
+<p>  (창이 처음 열릴 때의 작은 크기가 저장된 값을 덮어쓰던 문제)</p>
+<ul>
+<li>설정에 <b>정보</b> 탭 추가 — 앱 버전 · 빌드 번호 표시</li>
+</ul>
+<p class="installed-note">v1.0.4 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.0.3</h3>
+<ul>
+<li>브라우저의 칸 구분선 위치(사이드바 너비, 퀵뷰 · 정보 칸 너비, 정보 칸 높이) 기억</li>
+</ul>
+<p class="installed-note">v1.0.3 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.0.2</h3>
+<ul>
+<li>Finder 와 같은 <b>위치 사이드바</b>: 즐겨찾기, iCloud Drive, 이 Mac, 외장 디스크, 연결된 네트워크 공유(추출 버튼)</li>
+<li>네트워크의 NAS(SMB) 자동 찾기, <b>서버에 연결…</b> (<code>⌘K</code>), 최근 서버 기억</li>
+<li>고침: 이미지 뷰어에서 방향키가 동작하지 않던 문제</li>
+<li><code>Page Up</code> / <code>Page Down</code> 으로 이전 / 다음 이미지</li>
+</ul>
+<p class="installed-note">v1.0.2 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.0.1</h3>
+<ul>
+<li>고침: 툴바의 폴더 버튼을 누르면 앱이 강제 종료되던 문제</li>
+</ul>
+<p class="installed-note">v1.0.1 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
+<section>
+<h3>v1.0.0</h3>
+<p>첫 릴리즈</p>
+<ul>
+<li>브라우저: 파일 목록(리스트 / 썸네일), 퀵뷰, 이미지 정보(EXIF)</li>
+<li>ZIP · CBZ 압축 파일을 풀지 않고 목록 안에서 보기, 방향키로 압축 파일 안까지 이어서 이동</li>
+<li>이미지 뷰어: 원본 크기, 방향키 · 휠 확대/축소, 드래그 이동, 슬라이드 쇼</li>
+<li>iPhone Live Photo 보기 · 재생</li>
+<li>설정: 기본 확대 크기, 앱 윈도우 크기, 창 위치 기억, 항상 위, 화이트 / 다크 모드</li>
+<li>기본 이미지 뷰어로 지정, Finder 오른쪽 버튼 메뉴(빠른 동작 · Finder 확장)</li>
+<li>앱 아이콘: 라이트박스 루페</li>
+</ul>
+<p class="installed-note">v1.0.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>]]></description>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.7.0.zip" length="5103864" type="application/octet-stream" sparkle:edSignature="ISujY70bnSM/P6epJ2I4Q+Zs303JKTpAbV0TQ5xgvu/nUi5jVa9bywbYjsnOLCU/Eq635pF1cISX/OmsnZGjCA=="/>
     </item>
   </channel>
 </rss>
