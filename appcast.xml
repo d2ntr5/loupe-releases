@@ -3,10 +3,10 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.9.0</title>
-      <pubDate>Sun, 08 Nov 2026 11:54:21 GMT</pubDate>
-      <sparkle:version>163</sparkle:version>
-      <sparkle:shortVersionString>1.9.0</sparkle:shortVersionString>
+      <title>Loupe 1.9.1</title>
+      <pubDate>Sun, 08 Nov 2026 12:44:00 GMT</pubDate>
+      <sparkle:version>166</sparkle:version>
+      <sparkle:shortVersionString>1.9.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 .installed-note { display: none; }
@@ -16,8 +16,15 @@
 .tag { font-size: 11px; font-weight: 600; color: #fff; background: #B45309; border-radius: 4px; padding: 1px 5px; }
 small { color: #8E8E93; font-weight: 400; }
 </style>
+<section data-sparkle-version="166">
+<h3>v1.9.1 <span class="tag">설치할 버전</span> <small>2026. 11. 8.</small></h3>
+<ul>
+<li>탐색 창 머리: 신호등 세 단추를 머리 줄(52pt) 세로 가운데로 (1.9.0 에서는 위에 붙어 있었음)</li>
+</ul>
+<p class="installed-note">v1.9.1 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
 <section data-sparkle-version="163">
-<h3>v1.9.0 <span class="tag">설치할 버전</span> <small>2026. 11. 8.</small></h3>
+<h3>v1.9.0 <small>2026. 11. 8.</small></h3>
 <ul>
 <li>새 버전 · 업데이트 서버 통신 문제는 탐색 창 머리 톱니의 배지로만 알림: 새 버전 초록 「↓」, 통신 문제 빨강 「!」</li>
 <li>배지가 있을 때 톱니를 누르면 설정 › 업데이트 탭으로 (탭 이름에도 같은 배지)</li>
@@ -564,7 +571,7 @@ small { color: #8E8E93; font-weight: 400; }
 </ul>
 <p class="installed-note">v1.0.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.9.0.zip" length="5159074" type="application/octet-stream" sparkle:edSignature="OSlK7biLfPsQiuhv9NcHl4eK/oyFyvC1T79L8W25AYVwXYgVULlwwH/QOyUfC6CH7mTBJnINZajlVOU7oYKCDA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.9.1.zip" length="5159427" type="application/octet-stream" sparkle:edSignature="UAOZ7me0BWKBcKUQSc49I//iHUBr6dT94kAl7dhQhW/Kj/hIuGMH5F0VQFNXjWyE8gM/Qe5BKZ8wjRcxAUMIAw=="/>
     </item>
   </channel>
 </rss>
