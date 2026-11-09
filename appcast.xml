@@ -3,10 +3,10 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.9.1</title>
-      <pubDate>Sun, 08 Nov 2026 12:44:00 GMT</pubDate>
-      <sparkle:version>166</sparkle:version>
-      <sparkle:shortVersionString>1.9.1</sparkle:shortVersionString>
+      <title>Loupe 1.10.0</title>
+      <pubDate>Mon, 09 Nov 2026 15:11:39 GMT</pubDate>
+      <sparkle:version>172</sparkle:version>
+      <sparkle:shortVersionString>1.10.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 .installed-note { display: none; }
@@ -16,8 +16,23 @@
 .tag { font-size: 11px; font-weight: 600; color: #fff; background: #B45309; border-radius: 4px; padding: 1px 5px; }
 small { color: #8E8E93; font-weight: 400; }
 </style>
+<section data-sparkle-version="172">
+<h3>v1.10.0 <span class="tag">설치할 버전</span> <small>2026. 11. 10.</small></h3>
+<ul>
+<li>글씨 크기 4단계: 작게 · 보통 · 크게 · 아주 크게 (설정 › 보기 › 화면 › 글씨 크기, 보기 메뉴). 글씨와 함께 여백 · 단추 · 아이콘 · 사이드바 같은 칸 너비 · 설정 창 너비 · 탐색 창 크기도 바뀝니다</li>
+<li>⌘= ⌘- ⌘0: 탐색 · 설정 창이 앞이면 글씨 크게 · 작게 · 보통, 뷰어 창이 앞이면 지금처럼 이미지 확대 · 축소 · 원본 크기</li>
+<li>모든 맥 앱과 같은 글씨 표: 무리 제목 13 · 설명 11 · 아래 줄 11 · 새 버전 13 · 칸 제목 11 등, 가장 작은 글씨 11</li>
+<li>라이트 색을 시스템 색으로: 탐색 창 바탕 · 사이드바는 창 바탕색, 목록 · 썸네일 · 설정 상자는 흰 바탕 + 시스템 구분선</li>
+<li>설정 › 보기의 「색 테마」 카드를 「화면」 무리의 「머리 색」 견본 9개(가로 한 줄)로. 고른 머리 색은 앱 머리 · 설정 머리 · 스위치 · 주 단추 · 썸네일과 사이드바에서 고른 칸에</li>
+<li>분할 단추(마우스 휠 · 글씨 크기 · 크기 조절 방식 · 자르기 비율)를 회색 홈 안 흰 알약 모양으로</li>
+<li>글씨 크기를 바꾸면 열린 창의 크기 · 배치를 바로 다시 맞춤 (창을 건드리지 않아도 잘리지 않게)</li>
+<li>뷰어: 창이 좁아 아래 도구 패널과 겹치면 왼쪽 아래 키 안내를 숨김</li>
+<li>개발: 릴리즈 스크립트가 끝날 때 임시 키체인 · 노트 · 복제본 폴더를 모두 지우고, 화면 밖 그리기가 바꾼 설정 · 창 자리를 되돌림</li>
+</ul>
+<p class="installed-note">v1.10.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
 <section data-sparkle-version="166">
-<h3>v1.9.1 <span class="tag">설치할 버전</span> <small>2026. 11. 8.</small></h3>
+<h3>v1.9.1 <small>2026. 11. 8.</small></h3>
 <ul>
 <li>탐색 창 머리: 신호등 세 단추를 머리 줄(52pt) 세로 가운데로 (1.9.0 에서는 위에 붙어 있었음)</li>
 </ul>
@@ -571,7 +586,7 @@ small { color: #8E8E93; font-weight: 400; }
 </ul>
 <p class="installed-note">v1.0.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.9.1.zip" length="5159427" type="application/octet-stream" sparkle:edSignature="UAOZ7me0BWKBcKUQSc49I//iHUBr6dT94kAl7dhQhW/Kj/hIuGMH5F0VQFNXjWyE8gM/Qe5BKZ8wjRcxAUMIAw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.10.0.zip" length="5239313" type="application/octet-stream" sparkle:edSignature="UUb9XC/X9G3Ifj8VaSkOmgTZUrUWfGIvjcx1GFPlMBqsL3+PtlK94HRMJ8Pi1LmZb9steL9+goqyaZ6kKvvqBw=="/>
     </item>
   </channel>
 </rss>
