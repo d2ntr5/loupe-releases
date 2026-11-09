@@ -3,10 +3,10 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.10.0</title>
-      <pubDate>Mon, 09 Nov 2026 15:11:39 GMT</pubDate>
-      <sparkle:version>172</sparkle:version>
-      <sparkle:shortVersionString>1.10.0</sparkle:shortVersionString>
+      <title>Loupe 1.10.1</title>
+      <pubDate>Mon, 09 Nov 2026 16:04:18 GMT</pubDate>
+      <sparkle:version>174</sparkle:version>
+      <sparkle:shortVersionString>1.10.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 .installed-note { display: none; }
@@ -16,8 +16,18 @@
 .tag { font-size: 11px; font-weight: 600; color: #fff; background: #B45309; border-radius: 4px; padding: 1px 5px; }
 small { color: #8E8E93; font-weight: 400; }
 </style>
+<section data-sparkle-version="174">
+<h3>v1.10.1 <span class="tag">설치할 버전</span> <small>2026. 11. 10.</small></h3>
+<ul>
+<li>설정 창(톱니 · ⌘, · 메뉴)과 이미지 크기 조절 창이 지금 보는 데스크탑 · 화면에 열림 (전에는 처음 연 데스크탑이나 다른 모니터에 열리기도 함). 다른 모니터 · 데스크탑에 열려 있던 설정 창도 지금 화면 가운데로 옮겨 옴</li>
+<li>탐색 · 설정 창이 앞일 때 ⌘= ⌘- ⌘0 으로 글씨 크기가 바뀌지 않던 것을 고침 (1.10.0, 뷰어 확대와 같은 키라 이미지 메뉴 항목이 키를 받고 있었음)</li>
+<li>글씨 크기 분할 단추를 눌렀을 때 창 크기를 클릭 처리가 끝난 다음 차례에 맞춤</li>
+<li>뷰어: 키 안내(왼쪽 아래)는 아래 도구 패널과 겹치지 않을 만큼 창이 넓을 때만 보임 (너비를 재서 판단)</li>
+</ul>
+<p class="installed-note">v1.10.1 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
 <section data-sparkle-version="172">
-<h3>v1.10.0 <span class="tag">설치할 버전</span> <small>2026. 11. 10.</small></h3>
+<h3>v1.10.0 <small>2026. 11. 10.</small></h3>
 <ul>
 <li>글씨 크기 4단계: 작게 · 보통 · 크게 · 아주 크게 (설정 › 보기 › 화면 › 글씨 크기, 보기 메뉴). 글씨와 함께 여백 · 단추 · 아이콘 · 사이드바 같은 칸 너비 · 설정 창 너비 · 탐색 창 크기도 바뀝니다</li>
 <li>⌘= ⌘- ⌘0: 탐색 · 설정 창이 앞이면 글씨 크게 · 작게 · 보통, 뷰어 창이 앞이면 지금처럼 이미지 확대 · 축소 · 원본 크기</li>
@@ -586,7 +596,7 @@ small { color: #8E8E93; font-weight: 400; }
 </ul>
 <p class="installed-note">v1.0.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.10.0.zip" length="5239313" type="application/octet-stream" sparkle:edSignature="UUb9XC/X9G3Ifj8VaSkOmgTZUrUWfGIvjcx1GFPlMBqsL3+PtlK94HRMJ8Pi1LmZb9steL9+goqyaZ6kKvvqBw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.10.1.zip" length="5251996" type="application/octet-stream" sparkle:edSignature="KUgNXHh/siYbp/2/VEo4c5ulUQgQCIqB6sUC1noqCuED75gZ7D9LjMggWP8GVfJNIdorIDftczugUi/McgaYAw=="/>
     </item>
   </channel>
 </rss>
