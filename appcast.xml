@@ -3,10 +3,10 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.10.1</title>
-      <pubDate>Mon, 09 Nov 2026 16:04:18 GMT</pubDate>
-      <sparkle:version>174</sparkle:version>
-      <sparkle:shortVersionString>1.10.1</sparkle:shortVersionString>
+      <title>Loupe 1.10.2</title>
+      <pubDate>Thu, 19 Nov 2026 14:10:57 GMT</pubDate>
+      <sparkle:version>184</sparkle:version>
+      <sparkle:shortVersionString>1.10.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 .installed-note { display: none; }
@@ -16,8 +16,16 @@
 .tag { font-size: 11px; font-weight: 600; color: #fff; background: #B45309; border-radius: 4px; padding: 1px 5px; }
 small { color: #8E8E93; font-weight: 400; }
 </style>
+<section data-sparkle-version="184">
+<h3>v1.10.2 <span class="tag">설치할 버전</span> <small>2026. 11. 19.</small></h3>
+<ul>
+<li>설정 › 업데이트: 새 버전 초록 상자의 「나중에」 · 「업데이트」 단추를 제목 줄 「● 새 버전 vX.Y.Z가 있습니다」 오른쪽 끝으로 옮김 (아래 「업데이트 확인…」과 같은 오른쪽 세로줄, 창이 좁으면 제목 아래 줄 오른쪽). 바뀐 점 길이와 상관없이 단추 자리가 같음</li>
+<li>설정 › 업데이트: 초록 상자의 주 단추 이름 「업데이트…」 → 「업데이트」 (앱 공통 표준)</li>
+</ul>
+<p class="installed-note">v1.10.2 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
 <section data-sparkle-version="174">
-<h3>v1.10.1 <span class="tag">설치할 버전</span> <small>2026. 11. 10.</small></h3>
+<h3>v1.10.1 <small>2026. 11. 10.</small></h3>
 <ul>
 <li>설정 창(톱니 · ⌘, · 메뉴)과 이미지 크기 조절 창이 지금 보는 데스크탑 · 화면에 열림 (전에는 처음 연 데스크탑이나 다른 모니터에 열리기도 함). 다른 모니터 · 데스크탑에 열려 있던 설정 창도 지금 화면 가운데로 옮겨 옴</li>
 <li>탐색 · 설정 창이 앞일 때 ⌘= ⌘- ⌘0 으로 글씨 크기가 바뀌지 않던 것을 고침 (1.10.0, 뷰어 확대와 같은 키라 이미지 메뉴 항목이 키를 받고 있었음)</li>
@@ -596,7 +604,7 @@ small { color: #8E8E93; font-weight: 400; }
 </ul>
 <p class="installed-note">v1.0.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.10.1.zip" length="5251996" type="application/octet-stream" sparkle:edSignature="KUgNXHh/siYbp/2/VEo4c5ulUQgQCIqB6sUC1noqCuED75gZ7D9LjMggWP8GVfJNIdorIDftczugUi/McgaYAw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.10.2.zip" length="5262221" type="application/octet-stream" sparkle:edSignature="9jy+vhLezNL6HXYKuuwZqUcskqs5B+0JOhQ6h8cJFj39BAExuaBHQKpyTYkVoK/7OvTDbdLTl40jj8mR9N9FBQ=="/>
     </item>
   </channel>
 </rss>
