@@ -3,10 +3,10 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.11.3</title>
-      <pubDate>Thu, 19 Nov 2026 16:25:04 GMT</pubDate>
-      <sparkle:version>195</sparkle:version>
-      <sparkle:shortVersionString>1.11.3</sparkle:shortVersionString>
+      <title>Loupe 1.11.4</title>
+      <pubDate>Thu, 19 Nov 2026 16:29:59 GMT</pubDate>
+      <sparkle:version>197</sparkle:version>
+      <sparkle:shortVersionString>1.11.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 .installed-note { display: none; }
@@ -16,8 +16,15 @@
 .tag { font-size: 11px; font-weight: 600; color: #fff; background: #B45309; border-radius: 4px; padding: 1px 5px; }
 small { color: #8E8E93; font-weight: 400; }
 </style>
+<section data-sparkle-version="197">
+<h3>v1.11.4 <span class="tag">설치할 버전</span> <small>2026. 11. 20.</small></h3>
+<ul>
+<li>통신 문제 빨간 상자의 「자동 확인 끄기」 단추 글자를 빨강에서 기본 글자색으로 (라이트 · 다크 모두). 회색 단추 위 빨간 글자는 대비가 낮아 잘 안 보였음 (앱 공통 표준)</li>
+</ul>
+<p class="installed-note">v1.11.4 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
 <section data-sparkle-version="195">
-<h3>v1.11.3 <span class="tag">설치할 버전</span> <small>2026. 11. 20.</small></h3>
+<h3>v1.11.3 <small>2026. 11. 20.</small></h3>
 <ul>
 <li>다크: 통신 문제 빨간 상자의 「자동 확인 끄기」 단추 글자도 밝게 (상자 안 색 글자 모두 그 색 + 흰색 35%, #D9756B). 라이트는 그대로</li>
 </ul>
@@ -635,7 +642,7 @@ small { color: #8E8E93; font-weight: 400; }
 </ul>
 <p class="installed-note">v1.0.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.11.3.zip" length="5300203" type="application/octet-stream" sparkle:edSignature="oGN2VJDksAWcTtSfFRTCJ3icoLwLAJuyeDeN39NkXVEWPosFfbWgIXAUgeXALDSFGalxkjMNH+t7NG4wSDIzBg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.11.4.zip" length="5299077" type="application/octet-stream" sparkle:edSignature="yTPW1Dpev2IO/UsOvUIQRo7zG66/7/gxttfZYEHh1SSu8OUw16gXOlcQfZ2IJ57e20OIm9s4KXoDymOFFwu4Dg=="/>
     </item>
   </channel>
 </rss>
