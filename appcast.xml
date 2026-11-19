@@ -3,10 +3,10 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.11.0</title>
-      <pubDate>Thu, 19 Nov 2026 14:16:10 GMT</pubDate>
-      <sparkle:version>189</sparkle:version>
-      <sparkle:shortVersionString>1.11.0</sparkle:shortVersionString>
+      <title>Loupe 1.11.1</title>
+      <pubDate>Thu, 19 Nov 2026 15:22:50 GMT</pubDate>
+      <sparkle:version>191</sparkle:version>
+      <sparkle:shortVersionString>1.11.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 .installed-note { display: none; }
@@ -16,8 +16,15 @@
 .tag { font-size: 11px; font-weight: 600; color: #fff; background: #B45309; border-radius: 4px; padding: 1px 5px; }
 small { color: #8E8E93; font-weight: 400; }
 </style>
+<section data-sparkle-version="191">
+<h3>v1.11.1 <span class="tag">설치할 버전</span> <small>2026. 11. 20.</small></h3>
+<ul>
+<li>다크: 켠 스위치 · 주 단추(완료 · 업데이트 확인… 등) · 고른 썸네일 테두리가 어두운 머리 색이라 바탕과 잘 구분되지 않던 것을, 머리 색과 밝은 강조 글자의 중간색으로 (앱 공통 표준 「다크 강조색」). 라이트는 그대로</li>
+</ul>
+<p class="installed-note">v1.11.1 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
 <section data-sparkle-version="189">
-<h3>v1.11.0 <span class="tag">설치할 버전</span> <small>2026. 11. 19.</small></h3>
+<h3>v1.11.0 <small>2026. 11. 19.</small></h3>
 <ul>
 <li>화면 모드: 설정 › 보기 › 화면에 「화면 모드」(시스템 · 라이트 · 다크)를 새로 둠. 탐색 · 설정 · 뷰어 · 크기 조절 창이 모두 따름 (전에는 탐색 · 설정 창을 늘 라이트로 그림). 처음 값은 시스템</li>
 <li>앱 머리 오른쪽에 해·달 단추: 라이트로 보이면 달, 다크로 보이면 해. 누르면 다크 ↔ 라이트로 바뀜 (앱 공통 표준, Bhasha 와 같은 모양)</li>
@@ -614,7 +621,7 @@ small { color: #8E8E93; font-weight: 400; }
 </ul>
 <p class="installed-note">v1.0.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.11.0.zip" length="5293895" type="application/octet-stream" sparkle:edSignature="wysqr7vrroskT5x29xB6YPQ+F4yGK12SUcmEL9jpqkqa9Sz5JY1LugVQ/JAXIJVLlo3kJ/uG1V/I6MuQ5mTgCA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.11.1.zip" length="5298036" type="application/octet-stream" sparkle:edSignature="sR3cQxV20hElm4hm7X75tDDIh2noB44Or9jilgIBZ1Wz2cjChqU3V2rY7uVmTtlS1y7PDcXHLPbfWvHFV0tODA=="/>
     </item>
   </channel>
 </rss>
