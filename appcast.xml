@@ -3,10 +3,10 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.11.4</title>
-      <pubDate>Thu, 19 Nov 2026 16:29:59 GMT</pubDate>
-      <sparkle:version>197</sparkle:version>
-      <sparkle:shortVersionString>1.11.4</sparkle:shortVersionString>
+      <title>Loupe 1.12.0</title>
+      <pubDate>Sun, 22 Nov 2026 23:33:55 GMT</pubDate>
+      <sparkle:version>202</sparkle:version>
+      <sparkle:shortVersionString>1.12.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 .installed-note { display: none; }
@@ -16,8 +16,17 @@
 .tag { font-size: 11px; font-weight: 600; color: #fff; background: #B45309; border-radius: 4px; padding: 1px 5px; }
 small { color: #8E8E93; font-weight: 400; }
 </style>
+<section data-sparkle-version="202">
+<h3>v1.12.0 <span class="tag">설치할 버전</span> <small>2026. 11. 23.</small></h3>
+<ul>
+<li>설정에 「로그」 탭을 새로 둠 (업데이트 · 정보 바로 앞, 앱 공통 표준): 앱 · 업데이트 · 설정 변경 로그를 따로 저장하고, 로그마다 켜기 · 끄기 · 크기 보기 · 지우기, 「모두 켜기」 · 「모두 끄기」, 「로그 초기화…」, 「로그 내보내기…」(zip 하나에 모든 로그 · 지난 파일 · 앱/OS 정보)</li>
+<li>Loupe 로그 둘: 「파일 작업」(휴지통 · 삭제 · 회전 · 편집 저장 · 압축 · 압축 해제 · 크기 조절, 100 MB) · 「서버 · 폴더 읽기」(서버 연결 · 실패 · 볼륨 꺼냄/끊김 · 폴더 · 압축 파일을 읽지 못함, 20 MB). 어떤 폴더를 열었는지는 남기지 않음</li>
+<li>로그마다 파일 5개를 돌려 써서 한도(앱 20 MB · 업데이트 5 MB · 설정 변경 5 MB · 파일 작업 100 MB · 서버 · 폴더 읽기 20 MB)를 넘지 않음. 위치 <code>~/Library/Logs/Loupe</code>. 비밀번호 · 토큰 · 키 · 입력한 글은 남기지 않음</li>
+</ul>
+<p class="installed-note">v1.12.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
 <section data-sparkle-version="197">
-<h3>v1.11.4 <span class="tag">설치할 버전</span> <small>2026. 11. 20.</small></h3>
+<h3>v1.11.4 <small>2026. 11. 20.</small></h3>
 <ul>
 <li>통신 문제 빨간 상자의 「자동 확인 끄기」 단추 글자를 빨강에서 기본 글자색으로 (라이트 · 다크 모두). 회색 단추 위 빨간 글자는 대비가 낮아 잘 안 보였음 (앱 공통 표준)</li>
 </ul>
@@ -642,7 +651,7 @@ small { color: #8E8E93; font-weight: 400; }
 </ul>
 <p class="installed-note">v1.0.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.11.4.zip" length="5299077" type="application/octet-stream" sparkle:edSignature="yTPW1Dpev2IO/UsOvUIQRo7zG66/7/gxttfZYEHh1SSu8OUw16gXOlcQfZ2IJ57e20OIm9s4KXoDymOFFwu4Dg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.12.0.zip" length="5452472" type="application/octet-stream" sparkle:edSignature="CYVt9WaBPyrSaKjzYT8ETlImsU7xUTLNxN37Hqvh4h4zJ2FkIhfiXv0OqUaQF2yt3W0NdkpQiuGd62luK5Z5CA=="/>
     </item>
   </channel>
 </rss>
