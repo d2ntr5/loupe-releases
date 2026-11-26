@@ -3,10 +3,10 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.12.2</title>
-      <pubDate>Thu, 26 Nov 2026 10:23:20 GMT</pubDate>
-      <sparkle:version>210</sparkle:version>
-      <sparkle:shortVersionString>1.12.2</sparkle:shortVersionString>
+      <title>Loupe 1.12.3</title>
+      <pubDate>Thu, 26 Nov 2026 10:25:35 GMT</pubDate>
+      <sparkle:version>212</sparkle:version>
+      <sparkle:shortVersionString>1.12.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 .installed-note { display: none; }
@@ -16,8 +16,15 @@
 .tag { font-size: 11px; font-weight: 600; color: #fff; background: #B45309; border-radius: 4px; padding: 1px 5px; }
 small { color: #8E8E93; font-weight: 400; }
 </style>
+<section data-sparkle-version="212">
+<h3>v1.12.3 <span class="tag">설치할 버전</span> <small>2026. 11. 26.</small></h3>
+<ul>
+<li>「서버에 연결」에서 이미 붙어 있는 서버를 다시 열 때, 같은 NAS 에 공유가 여럿 붙어 있으면 다른 공유를 열던 것을 고침 (<code>smb://10.10.20.8/dev</code> 가 <code>/Volumes/temp</code> 를 열었음). 이제 호스트와 공유 이름을 함께 비교</li>
+</ul>
+<p class="installed-note">v1.12.3 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
 <section data-sparkle-version="210">
-<h3>v1.12.2 <span class="tag">설치할 버전</span> <small>2026. 11. 26.</small></h3>
+<h3>v1.12.2 <small>2026. 11. 26.</small></h3>
 <ul>
 <li>다크: 설정 › 로그의 「지우기…」 · 「로그 초기화…」 단추 글자를 빨강에서 기본 글자색으로 (앱 공통 표준, 회색 단추 위 빨간 글자는 대비가 낮음). 라이트와 확인 창 안의 「지우기」 · 「로그 초기화」는 빨강 그대로</li>
 </ul>
@@ -665,7 +672,7 @@ small { color: #8E8E93; font-weight: 400; }
 </ul>
 <p class="installed-note">v1.0.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.12.2.zip" length="5452592" type="application/octet-stream" sparkle:edSignature="toPfacYqWQev9GZvHDz+fDSQUEoSqOxGC2ZAZXGvwUxTW7irKE0m22LIXIYHjcXqwhKVF013H3s61nASp+eVCg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.12.3.zip" length="5454685" type="application/octet-stream" sparkle:edSignature="Bd49lJY5cEdTZz/Y9s2x63+GhfaJyL0KvMLp++1upDK0CYf0yNWokK5G6oFBsrD4VvtmYFiIs0CtyMl2FDaNAQ=="/>
     </item>
   </channel>
 </rss>
