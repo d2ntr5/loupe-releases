@@ -3,10 +3,10 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.12.1</title>
-      <pubDate>Mon, 23 Nov 2026 00:05:41 GMT</pubDate>
-      <sparkle:version>204</sparkle:version>
-      <sparkle:shortVersionString>1.12.1</sparkle:shortVersionString>
+      <title>Loupe 1.12.2</title>
+      <pubDate>Thu, 26 Nov 2026 10:23:20 GMT</pubDate>
+      <sparkle:version>210</sparkle:version>
+      <sparkle:shortVersionString>1.12.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 .installed-note { display: none; }
@@ -16,8 +16,15 @@
 .tag { font-size: 11px; font-weight: 600; color: #fff; background: #B45309; border-radius: 4px; padding: 1px 5px; }
 small { color: #8E8E93; font-weight: 400; }
 </style>
+<section data-sparkle-version="210">
+<h3>v1.12.2 <span class="tag">설치할 버전</span> <small>2026. 11. 26.</small></h3>
+<ul>
+<li>다크: 설정 › 로그의 「지우기…」 · 「로그 초기화…」 단추 글자를 빨강에서 기본 글자색으로 (앱 공통 표준, 회색 단추 위 빨간 글자는 대비가 낮음). 라이트와 확인 창 안의 「지우기」 · 「로그 초기화」는 빨강 그대로</li>
+</ul>
+<p class="installed-note">v1.12.2 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
 <section data-sparkle-version="204">
-<h3>v1.12.1 <span class="tag">설치할 버전</span> <small>2026. 11. 23.</small></h3>
+<h3>v1.12.1 <small>2026. 11. 23.</small></h3>
 <ul>
 <li>설정 › 로그 › 「로그 내보내기…」 zip 에 맥 전용 부가 파일(<code>._app.log</code> 같은 <code>._</code> 파일)이 들어가던 것을 뺌. 다른 컴퓨터에서 풀면 로그와 같은 수의 <code>._</code> 파일이 보였음</li>
 </ul>
@@ -658,7 +665,7 @@ small { color: #8E8E93; font-weight: 400; }
 </ul>
 <p class="installed-note">v1.0.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.12.1.zip" length="5452638" type="application/octet-stream" sparkle:edSignature="jntsPr4hkP9yBVanvMSBFC146xS6mvobATSlW5P4lfVv70I2z1kQBspJuy1MBw2AkqFyJnxp1wSRz6qDsCqyCA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.12.2.zip" length="5452592" type="application/octet-stream" sparkle:edSignature="toPfacYqWQev9GZvHDz+fDSQUEoSqOxGC2ZAZXGvwUxTW7irKE0m22LIXIYHjcXqwhKVF013H3s61nASp+eVCg=="/>
     </item>
   </channel>
 </rss>
