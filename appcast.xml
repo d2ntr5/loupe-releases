@@ -3,10 +3,10 @@
   <channel>
     <title>Loupe</title>
     <item>
-      <title>Loupe 1.12.3</title>
-      <pubDate>Thu, 26 Nov 2026 10:25:35 GMT</pubDate>
-      <sparkle:version>212</sparkle:version>
-      <sparkle:shortVersionString>1.12.3</sparkle:shortVersionString>
+      <title>Loupe 1.13.0</title>
+      <pubDate>Fri, 27 Nov 2026 10:41:25 GMT</pubDate>
+      <sparkle:version>220</sparkle:version>
+      <sparkle:shortVersionString>1.13.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 .installed-note { display: none; }
@@ -16,8 +16,15 @@
 .tag { font-size: 11px; font-weight: 600; color: #fff; background: #B45309; border-radius: 4px; padding: 1px 5px; }
 small { color: #8E8E93; font-weight: 400; }
 </style>
+<section data-sparkle-version="220">
+<h3>v1.13.0 <span class="tag">설치할 버전</span> <small>2026. 11. 27.</small></h3>
+<ul>
+<li>탐색 창 상태 막대를 나눔: <b>왼쪽은 이 폴더</b>(고른 이미지 위치 「4 / 120」을 오른쪽에서 왼쪽 맨 앞으로 옮김 · 이미지 · 폴더 · 압축 파일 · 크기), <b>오른쪽은 하위 폴더 포함 합계</b>(이미지 · 폴더 · 압축 파일 · 크기). 하위 폴더는 바탕에서 세고 다 센 뒤 보이며, 그동안 「세는 중…」. 큰 폴더 · NAS 에서도 목록 · 퀵뷰가 멈추지 않고, 다른 폴더로 가면 세기를 멈춤. 하위 폴더가 없으면 오른쪽은 비움, 읽지 못한 폴더는 개수로 알림</li>
+</ul>
+<p class="installed-note">v1.13.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
+</section>
 <section data-sparkle-version="212">
-<h3>v1.12.3 <span class="tag">설치할 버전</span> <small>2026. 11. 26.</small></h3>
+<h3>v1.12.3 <small>2026. 11. 26.</small></h3>
 <ul>
 <li>「서버에 연결」에서 이미 붙어 있는 서버를 다시 열 때, 같은 NAS 에 공유가 여럿 붙어 있으면 다른 공유를 열던 것을 고침 (<code>smb://10.10.20.8/dev</code> 가 <code>/Volumes/temp</code> 를 열었음). 이제 호스트와 공유 이름을 함께 비교</li>
 </ul>
@@ -672,7 +679,7 @@ small { color: #8E8E93; font-weight: 400; }
 </ul>
 <p class="installed-note">v1.0.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.12.3.zip" length="5454685" type="application/octet-stream" sparkle:edSignature="Bd49lJY5cEdTZz/Y9s2x63+GhfaJyL0KvMLp++1upDK0CYf0yNWokK5G6oFBsrD4VvtmYFiIs0CtyMl2FDaNAQ=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/loupe-releases/main/releases/Loupe-1.13.0.zip" length="5479705" type="application/octet-stream" sparkle:edSignature="eN5A1UG/36RbhAhXMDn9INme1rA315iTC1+jv3/pk2dF1ktttv9g2YR/QuOnW+HnHZLsXJw8bajfIDAePY8PAg=="/>
     </item>
   </channel>
 </rss>
